@@ -122,17 +122,19 @@ I am ​Preethi Siva Kumar, graduate student in the Department of Mechanical and
 <table>
   <tr>
     <td width="60%">
-      Short bio will be released soon ..       
+      I am a senior Mechanical Engineering student here at GW. Over the past year, I’ve become very passionate about design and robotics. I’ve had the opportunity to work on a few projects in those fields, and I hope to continue exploring them professionally in the automotive industry.
+      This past summer, I interned at an MEP company, where I designed HVAC systems and really put my Thermodynamics and Heat Transfer skills to use, while also gaining experience with Revit.
+      Outside of class, I love playing soccer, going to the gym, and watching UFC. I’m also part of the GW Brazilian Jiu Jitsu Club!   
     </td>
     <td width="40%">
-      <img src="images/team/GWU_Logo.png" alt="instructor" style="object-fit:contain width:200px;height:200px; margin-right: 10px;" />
+      <img src="images/team/ergi_agaj_headshot.png" alt="instructor" style="object-fit:contain width:200px;height:200px; margin-right: 10px;" />
       <!-- <small>Dr. Kartik Bulusu</small><br> -->
 
       **Office hours and Location:** TBA 
 
       **Email:** ergi dot agaj at gwmail dot gwu dot edu
 
-      [**LinkedIn**](https://www.linkedin.com/in/ergiagaj/)
+      [**LinkedIn**](http://www.linkedin.com/in/ergiagaj)
     </td>
   </tr>
 </table>
