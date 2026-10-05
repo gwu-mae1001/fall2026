@@ -1,0 +1,162 @@
+---
+title: MAE 1001 [Fall 2026]
+subtitle: Introduction to Mechanical and Aerospace Engineering
+format:
+  html:
+    code-copy: false
+---
+:::{.callout-important}
+**Referencing the content in this webpage:**
+
+Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace Engineering [Course lecture notes, codes and presentations]. Department of Mechanical and Aerospace Engineering, The George Washington University.
+:::
+
+<!-- :::{.callout-important}
+**Registartion:**
+[Registration link](https://events.vtools.ieee.org/event/register/437187)
+::: -->
+
+## Welcome to MAE 1001
+<html>
+<head>
+    <style>
+        body {
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+/Edge */
+            user-select: none; /* Standard */
+        }
+    </style>
+</head>
+<body>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+Welcome to the world of mechanical engineering—a field where imagination meets practical problem-solving to improve the way people live and interact with technology. 
+
+The course is designed to inspire curiosity and develop critical thinking, giving you opportunities to apply mathematics and science to create solutions that matter. 
+
+Whether your interests lie in building renewable energy systems, designing new mechanical devices, or simply understanding how things work, this course will help you build a solid foundation for your future studies and career in engineering. 
+
+By the end of the semester, you will appreciate both the exciting possibilities and the responsibilities that come with being a mechanical engineer.
+
+ <!-- "float: left;  -->
+ <img src="/images/noun-machine-to-machine-7982019_copy2.png" alt="IoT icon" style="object-fit:contain width:250px;height:250px; margin-right: 10px;" /><br>
+ <!-- <p><font size="1">IoT by Alla Zaleuska from <a href="https://thenounproject.com/browse/icons/term/iot/" target="_blank" title="IoT Icons">Noun Project</a></font></p> -->
+
+  <p><font size="1">machine to machine by miftakhudin from <a href="https://thenounproject.com/browse/icons/term/machine-to-machine/" target="_blank" title="machine to machine Icons">Noun Project</a> (CC BY 3.0)</font></p>
+
+
+<br>
+
+
+As first-year mechanical engineering students, you are about to embark on a dynamic journey that introduces the essentials of mechanics, materials, energy, and design. 
+
+- Throughout this course, you will learn not only by studying foundational principles, but also by working in teams on hands-on projects that mirror real engineering challenges faced in industry and research. 
+
+- You will be exposed to designing, 3D printing and assembling with sensors and automation in a unique “micro-Lab” (or $\mu$-Lab) environment that includes the Raspberry Pi (single-board computer), and Python programming language. 
+
+- Video Recordings: Class sessions will generally not be recorded due to the interactive and hands-on nature of the course. If any lectures are recorded or prerecorded, they will be posted on Blackboard or the course webpage and available to all members of the class.
+
+<!-- ::: {.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+::: -->
+
+::: {.callout-tip}
+## Time & Location of MAE 1001 [Fall 2026]
+**MON 111** 
+
+- SEH Studio Labs
+  - [SEH 1300](https://seascf.engineering.gwu.edu/seh-1300){target="_blank"}
+  - [SEH 1400](https://seascf.engineering.gwu.edu/seh-1400){target="_blank"}
+  - [SEH 1450](https://seascf.engineering.gwu.edu/seh-1450){target="_blank"}
+- 800 22nd street NW
+- Washington DC 20052
+
+**Meeting time**
+
+- Fridays, 1:30 PM – 4:00 PM
+:::
+
+::: {.callout-tip}
+## Time & Location of Office hours
+
+**Prof. Kartik Bulusu** 
+
+- After class or by adhoc appointment. Reach out to schedule.
+
+**Preethi Siva Kumar (GTA)** 
+
+- Thursdays from 1:00 PM to 2:00 PM.
+
+**Anya Spevacek (ULA)** 
+
+- TBA
+
+**Ergi Agaj (ULA)** 
+
+- TBA
+
+**Toby (ULA)**: 
+
+- TBA
+
+**Note:** All office hours will be on the 3rd floor of SEH, near the couches right next to SEH 3040. If you need anything, don’t hesitate to come by during these times or reach out to us through EdStem or Blackboard to set something up if you can’t make it.-
+:::
+
+<!-- ::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+:::{.callout-note}
+## Time & Location of the Workshop
+**Thomas Jefferson Meeting Room 1**
+[Thomas Jefferson Library](https://www.fairfaxcounty.gov/library/branches/thomas-jefferson) 
+7415 Arlington Boulevard 
+Falls Church, VA 22042
+
+**Meeting time**
+9:00 AM – 12:00 Noon
+::: -->
+
+<!-- :::{.callout-note}
+Lecture times are from 
+::: -->
+
+<!-- This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>. -->

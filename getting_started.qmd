@@ -1,0 +1,50 @@
+---
+title: Preliminaries
+subtitle: Must read to get started
+format:
+  html:
+    code-copy: false
+---
+:::{.callout-important}
+**Referencing the content in this webpage:**
+
+Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace Engineering [Course lecture notes, codes and presentations]. Department of Mechanical and Aerospace Engineering, The George Washington University.
+:::
+
+
+## General information
+The course will meet in-person for both lectures and laboratories each week. The course will follow university guidelines if a virtual meeting is required.
+
+  - Most of our communication with you will be by Blackboard messaging and announcements.
+  - Start by reading the [**About**](index.qmd) section. 
+  - Review the [**Course policies**](guidelines.qmd) and get familiar with the [**Instruction Team**](instructor.qmd).
+    <!-- - These are the current [**office hours**](about.qmd#office-hours) being made available.  -->
+  - They will be updated as the semester progresses.
+
+## Student's main method of communication during the semester
+Our main method of communication is Ed, an online discussion board for questions and answers related to the course, whether technical or logistical in nature.
+
+  - [**Join Ed here**](https://edstem.org/us/join/qFPHsX)
+  - Do not post your source code to Ed. 
+  - Think through your questions. Post a general concept of the programming concept. 
+  - Your questions on Ed will be addressed within 24 hours.
+  - **The students will be expected to work in:**
+    - small groups using a limited number of hardware components and WiFi connectivity that will be provided.
+
+
+## Course schedule 
+The [**Schedule**](agenda.qmd) page outlines the weekly-schedule and what your deliverables are. It is YOUR job to keep to the schedule and submit work accordingly.
+  
+  - The first meeting of the course will be on **Friday** _(10/09/2026)_ [See [**Schedule**](agenda.qmd)]
+
+
+## Laptop and personal compute machine requirements
+The attendees will be expected to bring their own laptops with the following requirements: </strong>
+
+  - Mac OS 12+ or Windows 10+ operating system
+  - One USB-A or USB-C port that is available for use during the workshop
+  - WiFi connectivity
+  - See [instructions](install-editor.qmd) for much needed software installations. 
+  - **We unfortuantely, cannot support Chrome OS- or Linux OS-based laptops or iPads and other digital tablets.**
+  - **Only Windows 10+ or Macintosh 12+ computers with QWERTY keyboards are supported for this course.** The instructor has limited time to troubleshoot any OS-related problems.
+    - The QWERTY (pronounced KWEHR-tee) keyboard is the standard typewriter and computer keyboard in countries that use a Latin-based alphabet.

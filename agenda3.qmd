@@ -1,0 +1,643 @@
+---
+title: "Schedule"
+subtitle: This schedule may be updated with minor changes during the Fall 2026 semester
+format:
+  html:
+    code-copy: false
+---
+
+```{=html}
+<style>
+  /* Kept from the original page: discourages copying page text */
+  body { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+</style>
+```
+
+:::{.callout-important}
+**Referencing the content in this webpage:**
+
+Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace Engineering [Course lecture notes, codes and presentations]. Department of Mechanical and Aerospace Engineering, The George Washington University.
+:::
+
+:::{.callout-important}
+- The attached course outline is subject to change depending on the pace of the class. 
+- The course is designed with active learning modules with limited number of hardware components. 
+- Pay attention to the weekly activities where laptop requirements are mentioned clearly.
+
+<!-- - You are strongly encouraged to bring your own personal machine or laptop and participate with the [prerequisites](install-editor.qmd) installed.
+ - Follow the instructions provided carefully and complete the required installations needed for this workshop. ([See prerequisites](install-editor.qmd))
+ - Once you finish the **Steps 1, 2 and 3 in the installation instructions** in [prerequisites](install-editor.qmd), fill out the [Pre-workshop survey form](https://tinyurl.com/yrkacfd9). 
+ - **You will be automatically entered into a raffle in the workshop on 10/12/2024 if you complete the installation check-in form.** -->
+:::
+
+```{=html}
+<!-- ===================================================================
+     INTERACTIVE SCHEDULE
+     Editing guide:
+       - data-year on .mae-sched: the calendar year of the term's first
+         class. Used for "Next class" and "Due in N days" badges.
+       - Each <tr> takes data-date="MM/DD" (class meeting) and, optionally,
+         data-due="MM/DD" (earliest deliverable deadline that week).
+       - Rows with class="sched-event" are breaks / exam-period notices.
+       - Cell classes (col-topic, col-blitz, col-spot, col-lab, col-due, col-span) drive the
+         column toggles; data-label is the heading shown on phones.
+     =================================================================== -->
+<div class="mae-sched" data-year="2026">
+
+  <style>
+    .mae-sched {
+      --s-accent: var(--bs-primary, #0d6efd);
+      /* Derived from the text colour so light and dark Quarto themes both work */
+      --s-border: color-mix(in srgb, currentColor 20%, transparent);
+      --s-muted: color-mix(in srgb, currentColor 68%, transparent);
+      --s-stripe: color-mix(in srgb, currentColor 4%, transparent);
+      --s-alert: var(--bs-danger, #dc3545);
+      --s-bg: transparent;
+      margin: 1.5rem 0;
+      max-width: 100%;
+      container-type: inline-size; /* layout follows the content column, not the window */
+    }
+    .mae-sched .sched-scroll { max-width: 100%; overflow-x: auto; }
+    .mae-sched td { overflow-wrap: break-word; hyphens: auto; }
+    .mae-sched input, .mae-sched button { -webkit-user-select: text; user-select: text; font: inherit; }
+
+    /* ---------- toolbar ---------- */
+    .mae-sched .sched-toolbar {
+      display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center;
+      margin-bottom: .5rem;
+    }
+    .mae-sched .sched-search { flex: 1 1 16rem; margin: 0; }
+    .mae-sched .sched-search input {
+      width: 100%; padding: .45rem .7rem; border: 1px solid var(--s-border);
+      border-radius: .375rem; background: var(--s-bg); color: inherit;
+    }
+    .mae-sched .sched-cols { display: inline-flex; align-items: center; gap: .35rem; flex-wrap: wrap; }
+    .mae-sched .sched-cols-label { color: var(--s-muted); font-size: .9em; margin-right: .15rem; }
+    .mae-sched .sched-btn {
+      border: 1px solid var(--s-border); background: transparent; color: inherit;
+      padding: .3rem .7rem; border-radius: 999px; font-size: .9em; cursor: pointer; line-height: 1.3;
+    }
+    .mae-sched .sched-btn[aria-pressed="true"] { background: var(--s-accent); border-color: var(--s-accent); color: #fff; }
+    .mae-sched .sched-btn:disabled { opacity: .5; cursor: default; }
+    .mae-sched .sched-jump { border-radius: .375rem; }
+    .mae-sched .sched-check { display: inline-flex; gap: .4rem; align-items: center; font-size: .9em; margin: 0; cursor: pointer; }
+    .mae-sched :is(input, button):focus-visible { outline: 2px solid var(--s-accent); outline-offset: 2px; }
+    .mae-sched .sched-status { color: var(--s-muted); font-size: .85em; margin: 0 0 .5rem; min-height: 1.3em; }
+    .mae-sched .sched-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+    /* ---------- table ---------- */
+    .mae-sched table { width: 100%; border-collapse: collapse; font-size: .875em; }
+    .mae-sched th, .mae-sched td { border-bottom: 1px solid var(--s-border); padding: .6rem .5rem; vertical-align: top; text-align: left; }
+    .mae-sched thead th { border-bottom-width: 2px; background: var(--s-stripe); font-weight: 600; }
+    .mae-sched tbody tr:nth-child(odd) { background: var(--s-stripe); }
+    .mae-sched td ul { margin: 0; padding-left: 1.1rem; }
+    .mae-sched td li + li { margin-top: .25rem; }
+    .mae-sched td ul ul { margin-top: .2rem; }
+    .mae-sched .col-week, .mae-sched .col-date { white-space: nowrap; }
+    .mae-sched .wk-num { display: block; font-weight: 700; }
+    .mae-sched .wk-range { display: block; color: var(--s-muted); font-size: .88em; }
+    .mae-sched .sched-none { color: var(--s-muted); }
+    /* minimum widths keep wide-table columns readable; table scrolls in place if the column is too narrow */
+    .mae-sched .col-topic { min-width: 7em; }
+    .mae-sched .col-blitz { min-width: 7em; }
+    .mae-sched .col-spot { min-width: 9em; }
+    .mae-sched .col-lab { min-width: 10em; }
+    .mae-sched .col-due { min-width: 10em; }
+    .mae-sched tr[hidden] { display: none !important; }
+    .mae-sched.hide-topic .col-topic,
+    .mae-sched.hide-blitz .col-blitz,
+    .mae-sched.hide-spot .col-spot,
+    .mae-sched.hide-lab .col-lab,
+    .mae-sched.hide-due .col-due { display: none; }
+
+    /* break / exam rows */
+    .mae-sched .sched-event td { color: var(--s-alert); }
+    .mae-sched .sched-event .col-span { font-weight: 600; }
+
+    /* state */
+    .mae-sched tr.is-past > td { opacity: .72; }
+    .mae-sched tr.is-next { background: color-mix(in srgb, var(--s-accent) 9%, transparent) !important; }
+    .mae-sched tr.is-next > td:first-child { box-shadow: inset 4px 0 0 var(--s-accent); }
+    .mae-sched .sched-badge {
+      display: inline-block; margin-top: .3rem; padding: .1rem .5rem; border-radius: 999px;
+      font-size: .78em; font-weight: 600; background: var(--s-accent); color: #fff; white-space: nowrap;
+    }
+    .mae-sched .sched-badge.due { background: transparent; color: var(--s-alert); border: 1px solid currentColor; margin: 0 0 .4rem; }
+    .mae-sched mark.sched-hit { padding: 0 .1em; border-radius: .2em; background: #ffe066; color: #212529; }
+    .mae-sched .sched-empty { padding: 1.5rem .6rem; text-align: center; color: var(--s-muted); }
+
+    /* ---------- phones: each week becomes a card ---------- */
+    @container (max-width: 760px) {
+      .mae-sched table, .mae-sched tbody, .mae-sched td { display: block; width: 100%; }
+      .mae-sched thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+      .mae-sched tbody tr {
+        display: grid; grid-template-columns: 1fr auto; margin-bottom: .9rem;
+        border: 1px solid var(--s-border); border-radius: .5rem; overflow: hidden;
+      }
+      .mae-sched td { border-bottom: 1px solid var(--s-border); }
+      .mae-sched td:last-child { border-bottom: 0; }
+      .mae-sched .col-week, .mae-sched .col-date { border-bottom: 1px solid var(--s-border); }
+      .mae-sched .col-date { text-align: right; }
+      .mae-sched .col-topic, .mae-sched .col-blitz, .mae-sched .col-spot, .mae-sched .col-lab, .mae-sched .col-due, .mae-sched .col-span { grid-column: 1 / -1; }
+      .mae-sched td.is-empty { display: none; }
+      .mae-sched td[data-label]:not(.col-week):not(.col-date)::before {
+        content: attr(data-label); display: block; font-weight: 600; font-size: .85em;
+        color: var(--s-muted); margin-bottom: .3rem;
+      }
+      .mae-sched .wk-num, .mae-sched .wk-range { display: inline; margin-right: .4rem; }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .mae-sched tr.is-flash { animation: sched-flash 1.4s ease-out; }
+      @keyframes sched-flash { from { outline: 3px solid var(--s-accent); } to { outline: 3px solid transparent; } }
+    }
+
+    @media print {
+      .mae-sched .sched-toolbar, .mae-sched .sched-status { display: none; }
+      .mae-sched tr[hidden] { display: table-row !important; }
+      .mae-sched tr.is-past > td { opacity: 1; }
+    }
+  </style>
+
+  <div class="sched-toolbar" role="search">
+    <label class="sched-search">
+      <span class="sched-sr">Search the schedule</span>
+      <input type="search" placeholder="Search topics, labs, speakers, assignments" autocomplete="off">
+    </label>
+    <div class="sched-cols" role="group" aria-label="Columns to show">
+      <span class="sched-cols-label">Show</span>
+      <button type="button" class="sched-btn" data-col="topic" aria-pressed="true">Topics</button>
+      <button type="button" class="sched-btn" data-col="blitz" aria-pressed="true">Blitz talks</button>
+      <button type="button" class="sched-btn" data-col="spot" aria-pressed="true">Spotlight talks</button>
+      <button type="button" class="sched-btn" data-col="lab" aria-pressed="true">&mu;-labs</button>
+      <button type="button" class="sched-btn" data-col="due" aria-pressed="true">Deliverables</button>
+    </div>
+    <label class="sched-check"><input type="checkbox" class="sched-hide-past"> Hide past weeks</label>
+    <button type="button" class="sched-btn sched-jump">Go to next class</button>
+  </div>
+  <p class="sched-status" aria-live="polite"></p>
+
+  <div class="sched-scroll">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Week</th>
+        <th scope="col">Date</th>
+        <th scope="col" class="col-topic">Topic(s)</th>
+        <th scope="col" class="col-blitz">MAE Blitz talk</th>
+        <th scope="col" class="col-spot">Faculty spotlight talk</th>
+        <th scope="col" class="col-lab">&mu;-labs</th>
+        <th scope="col" class="col-due">Deliverables (Due date)</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- Week 0 -->
+      <tr id="week-0" data-date="10/09" data-due="10/09">
+        <td class="col-week"><span class="wk-num">Week 0</span><span class="wk-range">10/05 to 10/11</span></td>
+        <td class="col-date">10/09</td>
+        <td class="col-topic" data-label="Topic(s)">
+          <ul>
+            <li><strong>What to expect in MAE1001: </strong><a href="/documents/intro/BulusuIntroMAE1001_10172025.pdf" target="_blank">Slide deck</a></li>
+            <li><strong>Introduction to the Instruction Team: </strong><a href="/documents/intro/InstructionTeam_10172025.pdf" target="_blank">Slide deck</a></li>
+            <li><strong>MAE Advising: </strong><a href="/downloads/Yoo_SEASAdvising/FYAdvising_RegistrationWorkshop-Fall2025.pdf" target="_blank">Slide deck</a> by <a href="https://engineering.gwu.edu/jonathan-yoo" target="_blank">Jonathan Yoo</a>, Senior Academic Advisor</li>
+          </ul>
+        </td>
+        <td class="col-blitz is-empty" data-label="MAE Blitz talk"><span class="sched-none" aria-label="None">&mdash;</span></td>
+        <td class="col-spot is-empty" data-label="Faculty spotlight talk"><span class="sched-none" aria-label="None">&mdash;</span></td>
+        <td class="col-lab" data-label="&mu;-labs">
+          <ul>
+            <li><strong>Foundations of Python--The "Power Chords" Approach: </strong><a href="/documents/python/Python0_PowerChords_10172025.pdf" target="_blank">Slide deck</a></li>
+            <li><a href="/documents/python/power_chord.py" target="_blank">Download demo code</a></li>
+            <li>Software Installation Clinic</li>
+          </ul>
+        </td>
+        <td class="col-due" data-label="Deliverables">
+          <strong>Complete all installations on 10/09</strong> and enter into a raffle
+        </td>
+      </tr>
+
+      <!-- Week 1 -->
+      <tr id="week-1" data-date="10/16" data-due="10/22">
+        <td class="col-week"><span class="wk-num">Week 1</span><span class="wk-range">10/12 to 10/18</span></td>
+        <td class="col-date">10/16</td>
+        <td class="col-topic" data-label="Topic(s)">
+          <ul>
+            <li><strong>Week1-Announcements: </strong><a href="/documents/week1_intro/MAE1001_Class1_Introductions_10242025.pdf" target="_blank">Slide deck</a></li>
+          </ul>
+        </td>
+        <td class="col-blitz" data-label="MAE Blitz talk">
+          <a href="standup.qmd#marc-andre-berthin" target="_blank">Marc Andre-Berthin</a>
+        </td>
+        <td class="col-spot" data-label="Faculty spotlight talk">
+          <a href="https://mae.engineering.gwu.edu/steven-shooter" target="_blank">Prof. Steven Shooter</a>
+          <ul>
+            <li><a href="/documents/week1_intro/Shooter_presentation_10242025.pdf" target="_blank"><strong>Capstone Design Project for Career Success</strong></a></li>
+          </ul>
+        </td>
+        <td class="col-lab" data-label="&mu;-labs">
+          <ul>
+            <li><strong>SolidWorks Kickstart: Your Gateway to 3D Creativity! </strong><a href="/documents/SolidWorks/Solidworks_Session1_10252025.pdf" target="_blank">Slide deck</a></li>
+            <li><strong>SolidWorks Design on YouTube: </strong><a href="https://www.youtube.com/playlist?list=PL9kZfUG8vZ4HtV3WyjPcsWUKEMcOsHUja" target="_blank">Playlist</a></li>
+          </ul>
+        </td>
+        <td class="col-due" data-label="Deliverables">
+          <strong>[Deadline 10/22] Assignment submissions on Blackboard:</strong>
+          <ul>
+            <li><strong>1A: </strong>SolidWorks Part</li>
+          </ul>
+        </td>
+      </tr>
+
+      <!-- Week 2 -->
+      <tr id="week-2" data-date="10/23" data-due="10/29">
+        <td class="col-week"><span class="wk-num">Week 2</span><span class="wk-range">10/19 to 10/25</span></td>
+        <td class="col-date">10/23</td>
+        <td class="col-topic" data-label="Topic(s)">
+          <ul>
+            <li><strong>Week2-Announcements: </strong><a href="/documents/week2_intro/Week2_Announcements.pdf" target="_blank">Slide deck</a></li>
+          </ul>
+        </td>
+        <td class="col-blitz" data-label="MAE Blitz talk">
+          <a href="standup.qmd#julia-mcgillivray" target="_blank">Julia McGillivray</a>
+          <ul>
+            <li><a href="/documents/week2_intro/Week2_JuliaMcGillivray_Presentation.pdf" target="_blank"><strong>Slide deck</strong></a></li>
+          </ul>
+        </td>
+        <td class="col-spot" data-label="Faculty spotlight talk">
+          Sumner Gubisch, PhD Candidate, MAE Department
+          <ul>
+            <li><a href="/documents/week2_intro/Week2_SumnerGubisch_Presentation.pdf" target="_blank"><strong>Introduction into Additive Manufacturing</strong></a></li>
+          </ul>
+        </td>
+        <td class="col-lab" data-label="&mu;-labs">
+          <ul>
+            <li><strong>Transform Your Ideas: SolidWorks Assembly Essentials </strong><a href="/documents/SolidWorks/Solidworks_Session2_10312025.pdf" target="_blank">Slide deck</a></li>
+            <li><strong>SolidWorks Assembly on YouTube: </strong><a href="https://youtu.be/t8CcIzjOJIw?si=h-KVoWzBSGUjxyiX" target="_blank">Playlist</a></li>
+            <li><strong>Bias in Dice:</strong> Your first Experiment
+              <ul>
+                <li><a href="/documents/dice/BiasDice1_10252025.pdf" target="_blank"><strong>What is this experiment?</strong></a></li>
+                <li><a href="/documents/week2_intro/GitHubRepo_to_OpeningAnacondaNotebook.pdf" target="_blank"><strong>Steps to run the Python code</strong></a></li>
+                <li><a href="https://github.com/gwu-mae1001/fall2025_codes.git" target="_blank"><strong>Click on GitHub repo to download codes</strong></a></li>
+              </ul>
+            </li>
+          </ul>
+        </td>
+        <td class="col-due" data-label="Deliverables">
+          <strong>[Deadline 10/29] Assignment submissions on Blackboard:</strong>
+          <ul>
+            <li><strong>2A: </strong>Bias-in-Dice results file</li>
+            <li><strong>2C: </strong>Solidworks Assembly file</li>
+            <li><strong>2D: </strong>Complete the SolidWorks Crash Course Quiz on BlackBoard</li>
+          </ul>
+          <strong>[Deadline 10/29] Complete login to <a href="https://bulusu-py.ead.gwu.edu/" target="_blank">bulusu-py.ead.gwu.edu</a>:</strong>
+          <ul>
+            <li><strong>2B: </strong>You are expected to login only.</li>
+          </ul>
+        </td>
+      </tr>
+
+      <!-- Week 3 -->
+      <tr id="week-3" data-date="10/30" data-due="11/05">
+        <td class="col-week"><span class="wk-num">Week 3</span><span class="wk-range">10/26 to 11/01</span></td>
+        <td class="col-date">10/30</td>
+        <td class="col-topic" data-label="Topic(s)">
+          <ul>
+            <li><strong>Week3-Announcements: </strong><a href="/documents/week3_intro/Week3_Announcements.pdf" target="_blank">Slide deck</a></li>
+          </ul>
+        </td>
+        <td class="col-blitz" data-label="MAE Blitz talk">
+          <a href="standup.qmd#grace-welsh" target="_blank">Grace Welsh</a>
+        </td>
+        <td class="col-spot" data-label="Faculty spotlight talk">
+          <a href="https://www.leblanclab.com/members.html" target="_blank">Prof. Saniya Leblanc</a>
+          <ul>
+            <li><a href="/documents/week3_intro/Week3_LeBlanc_MAE 1001_2025.pdf" target="_blank"><strong>The Many Facets of Energy</strong></a></li>
+          </ul>
+        </td>
+        <td class="col-lab" data-label="&mu;-labs">
+          <ul>
+            <li><strong>Raspberry Pi Basics on YouTube: </strong><a href="https://youtube.com/playlist?list=PL9kZfUG8vZ4HDjTkP0YDBJS3Xe33TTSsv&amp;si=BEZ8GPX7j9g0R1-x" target="_blank">Playlist</a></li>
+            <li><strong>Raspberry Pi Lab:</strong> <a href="/documents/RPi/MAE1001_RPi4BplusPiNoIRCamera11072025.pdf" target="_blank">Camera and Face Detection</a></li>
+            <li><strong>Dissect a Disposable Camera:</strong> <a href="/documents/Camera_Disassembly/MAE1001_Camera Dissection_Lab.pdf" target="_blank">Your first disassembly</a></li>
+            <li><strong>From Numbers to Loops: Unlocking Python’s Power: </strong><a href="/documents/python/Python1_10252025.pdf" target="_blank">Slide deck [Data types and programming constructs]</a>
+              <ul>
+                <li><a href="https://youtu.be/eSYeHlwDCNA" target="_blank"><strong>Sequences, Selections, and Loops</strong></a></li>
+                <li><a href="https://youtu.be/EfJVnAHiR4s" target="_blank"><strong>Loops animation</strong></a></li>
+                <li><a href="https://youtu.be/wxds6MAtUQ0" target="_blank"><strong>Loops and Functions</strong></a></li>
+              </ul>
+            </li>
+          </ul>
+        </td>
+        <td class="col-due" data-label="Deliverables">
+          <strong>[Deadline 11/05] Assignment submissions on Blackboard:</strong>
+          <ul>
+            <li><strong>In-Class Lab 3A:</strong> Bias in Dice Experiment - Trial 2</li>
+            <li><strong>In-Class Lab 3B:</strong> Camera Dissection Lab</li>
+            <li><strong>In-Class Lab 3C:</strong> Raspberry Pi Selfie Upload</li>
+          </ul>
+        </td>
+      </tr>
+
+      <!-- Week 4 -->
+      <tr id="week-4" data-date="11/06" data-due="11/12">
+        <td class="col-week"><span class="wk-num">Week 4</span><span class="wk-range">11/02 to 11/08</span></td>
+        <td class="col-date">11/06</td>
+        <td class="col-topic" data-label="Topic(s)">
+          <ul>
+            <li><strong>Week4-Announcements: </strong><a href="/documents/week4_intro/Week4_Announcements.pdf" target="_blank">Slide deck</a></li>
+          </ul>
+        </td>
+        <td class="col-blitz" data-label="MAE Blitz talk">
+          <a href="standup.qmd#leonardo-borchert" target="_blank">Leonardo Borchert</a>
+          <ul>
+            <li><a href="/documents/week4_intro/Week4_College-Journey-Leonardo-Borchert.pdf" target="_blank"><strong>Slide deck</strong></a></li>
+          </ul>
+        </td>
+        <td class="col-spot" data-label="Faculty spotlight talk">
+          <a href="https://mae.engineering.gwu.edu/matthew-rau" target="_blank">Prof. Matt Rau</a>
+          <ul>
+            <li><a href="/documents/week4_intro/2025-11-14_Rau_MAE1001.pdf" target="_blank"><strong>We Need More Engineers with PhDs! And… Opportunities for Engineering Research in Ocean Science</strong></a></li>
+          </ul>
+        </td>
+        <td class="col-lab" data-label="&mu;-labs">
+          <ul>
+            <li><strong>Raspberry Pi Lab: </strong><a href="/documents/RPi/MAE1001_RPi4BplusSenseHat11142025.pdf" target="_blank">How SenseHat is working on the International Space Station</a></li>
+            <li><strong>Python Pandas Party: Turning Data into Decisions! </strong><a href="/documents/python/Python2_11142025.pdf" target="_blank">Slide deck</a></li>
+          </ul>
+        </td>
+        <td class="col-due" data-label="Deliverables">
+          <strong>[Deadline 11/12] Assignment submissions on Blackboard:</strong>
+          <ul>
+            <li><strong>In-Class Lab 4A:</strong> Bias in Dice Experiment-Trial 3</li>
+            <li><strong>In-Class Lab 4B:</strong> RPi Sense Hat Plot</li>
+            <li><strong>In-Class Lab 4C:</strong> Complete Python HW1 on <a href="https://bulusu-py.ead.gwu.edu/" target="_blank">bulusu-py.ead.gwu.edu</a>. There is no need to submit it anywhere.</li>
+            <li><strong>Assignment 4D: Week 3 Quiz</strong> on Guest Lectures, Raspberry Pi and Python</li>
+          </ul>
+        </td>
+      </tr>
+
+      <!-- Week 5 -->
+      <tr id="week-5" data-date="11/13" data-due="11/19">
+        <td class="col-week"><span class="wk-num">Week 5</span><span class="wk-range">11/09 to 11/15</span></td>
+        <td class="col-date">11/13</td>
+        <td class="col-topic" data-label="Topic(s)">
+          <ul>
+            <li><strong>Week5-Announcements: </strong><a href="/documents/week5_intro/Week5_Announcements.pdf" target="_blank">Slide deck</a></li>
+          </ul>
+        </td>
+        <td class="col-blitz" data-label="MAE Blitz talk">
+          <a href="standup.qmd#dominic-savarino" target="_blank">Dominic Savarino</a>
+          <ul>
+            <li><a href="/documents/week5_intro/Dominic_StudyAbroad_MAE1001.pdf" target="_blank"><strong>Slide deck</strong></a></li>
+          </ul>
+        </td>
+        <td class="col-spot" data-label="Faculty spotlight talk">
+          <a href="https://mae.engineering.gwu.edu/peng-wei" target="_blank">Prof. Peng Wei</a>
+          <ul>
+            <li><a href="/documents/week5_intro/Wei_AI-in-Air_Transportation.pdf" target="_blank"><strong>AI Use Cases in Air Transportation</strong></a></li>
+          </ul>
+        </td>
+        <td class="col-lab" data-label="&mu;-labs">
+          <ul>
+            <li><strong>Dissect a Cordless Screwdriver: </strong><a href="/documents/ScrewDriver_Disassembly/MAE1001_Screwdriver_Dissection_Lab.pdf" target="_blank">Your second disassembly</a></li>
+            <li><strong>Polished Documents, Simple Syntax: </strong><a href="/documents/LaTeX_document/MAE1001-OverleafLab.pdf" target="_blank">Your Guide to LaTeX, Markdown, and Your First Scientific Document</a></li>
+            <!-- <li><strong>Get Connected: Collaborate and Create with GitHub!</strong> Your First GitHub Repo</li> -->
+          </ul>
+        </td>
+        <td class="col-due" data-label="Deliverables">
+          <strong>[Deadline 11/19] Assignment submissions on Blackboard:</strong>
+          <ul>
+            <li><strong>In-Class Lab 5A: </strong>Screwdriver Disassembly - Lab Notebook</li>
+            <li><strong>In-Class Lab 5B: </strong>RPi Sense Hat Snake Game Score</li>
+            <li><strong>Assignment 5C: </strong>Overleaf Report Submission</li>
+          </ul>
+        </td>
+      </tr>
+
+      <!-- Week 6 -->
+      <tr id="week-6" data-date="11/20">
+        <td class="col-week"><span class="wk-num">Week 6</span><span class="wk-range">11/16 to 11/22</span></td>
+        <td class="col-date">11/20</td>
+        <td class="col-span" colspan="5">
+          <ul>
+            <li><strong>Week6-Announcements: </strong><a href="/documents/week6_intro/Week6_Announcements.pdf" target="_blank">Slide deck</a></li>
+            <li><strong>Raising MAE-Revs Higher: A Mechanical &amp; Aerospace Journey</strong> <a href="https://tinyurl.com/5n8hnhk8" target="_blank">[Graded questionnaire about the Field trip to the MAE Department]</a></li>
+          </ul>
+        </td>
+      </tr>
+
+      <!-- Thanksgiving -->
+      <tr id="thanksgiving" class="sched-event" data-date="11/27">
+        <td class="col-week"><span class="wk-num">Break</span><span class="wk-range">11/23 to 11/29</span></td>
+        <td class="col-date">11/27</td>
+        <td class="col-span" colspan="5">Thanksgiving Break (no classes)</td>
+      </tr>
+
+      <!-- Week 7 -->
+      <tr id="week-7" data-date="12/04">
+        <td class="col-week"><span class="wk-num">Week 7</span><span class="wk-range">11/30 to 12/06</span></td>
+        <td class="col-date">12/04</td>
+        <td class="col-span" colspan="5"><strong>Thrust Into Tomorrow: MAE Students Speak Out</strong> [Discuss the life in MAE department with the student panelists]</td>
+      </tr>
+
+      <!-- Make-up / reading day -->
+      <tr id="reading-day" class="sched-event" data-date="12/10">
+        <td class="col-week"><span class="wk-num">&nbsp;</span></td>
+        <td class="col-date">12/10</td>
+        <td class="col-span" colspan="5">Make-up/Reading Day</td>
+      </tr>
+
+      <!-- Final exam week -->
+      <tr id="finals" class="sched-event" data-date="12/17">
+        <td class="col-week"><span class="wk-num">Finals</span><span class="wk-range">12/11 to 12/17</span></td>
+        <td class="col-date"></td>
+        <td class="col-span" colspan="5">Final Exam week <strong>[There is no Final exam for MAE 1001]</strong></td>
+      </tr>
+
+    </tbody>
+  </table>
+  </div>
+
+  <script>
+  (function () {
+    var root = document.currentScript && document.currentScript.closest('.mae-sched');
+    if (!root) root = document.querySelector('.mae-sched');
+    if (!root || root.dataset.ready) return;
+    root.dataset.ready = '1';
+
+    var DAY = 864e5;
+    var tbody = root.querySelector('tbody');
+    var rows = Array.prototype.slice.call(tbody.querySelectorAll(':scope > tr'));
+    var spans = root.querySelectorAll('td.col-span');
+    var search = root.querySelector('.sched-search input');
+    var hidePast = root.querySelector('.sched-hide-past');
+    var jumpBtn = root.querySelector('.sched-jump');
+    var status = root.querySelector('.sched-status');
+    var colBtns = root.querySelectorAll('[data-col]');
+
+    /* ---- dates: MM/DD -> Date in the term's year; rolls into the next
+           year if the semester crosses New Year (e.g. 12/xx -> 01/xx) ---- */
+    var year = parseInt(root.dataset.year, 10) || new Date().getFullYear();
+    var firstMonth = null;
+    function parse(s) {
+      if (!s) return null;
+      var p = s.split('/').map(Number);
+      if (firstMonth === null) firstMonth = p[0];
+      var y = (p[0] < firstMonth - 5) ? year + 1 : year;
+      return new Date(y, p[0] - 1, p[1]);
+    }
+    var today = new Date(); today.setHours(0, 0, 0, 0);
+
+    var nextRow = null;
+    rows.forEach(function (tr) {
+      var d = parse(tr.dataset.date);
+      tr._date = d;
+      if (d && d < today) tr.classList.add('is-past');
+      if (!nextRow && d && d >= today && !tr.classList.contains('sched-event')) nextRow = tr;
+    });
+
+    function badge(text, cls) {
+      var b = document.createElement('span');
+      b.className = 'sched-badge' + (cls ? ' ' + cls : '');
+      b.textContent = text;
+      return b;
+    }
+
+    if (nextRow) {
+      nextRow.classList.add('is-next');
+      var isToday = nextRow._date.getTime() === today.getTime();
+      var cell = nextRow.querySelector('.col-date');
+      cell.appendChild(document.createElement('br'));
+      cell.appendChild(badge(isToday ? 'Today' : 'Next class'));
+    } else {
+      jumpBtn.disabled = true;
+      jumpBtn.textContent = 'All classes completed';
+    }
+
+    /* "Due in N days" for deadlines within the next two weeks */
+    rows.forEach(function (tr) {
+      var due = parse(tr.dataset.due);
+      var cell = tr.querySelector('.col-due');
+      if (!due || !cell) return;
+      var n = Math.round((due - today) / DAY);
+      if (n < 0 || n > 14) return;
+      var label = n === 0 ? 'Due today' : n === 1 ? 'Due tomorrow' : 'Due in ' + n + ' days';
+      var b = badge(label, 'due');
+      cell.insertBefore(document.createElement('br'), cell.firstChild);
+      cell.insertBefore(b, cell.firstChild);
+    });
+
+    rows.forEach(function (tr) { tr._text = tr.textContent.replace(/\s+/g, ' ').toLowerCase(); });
+
+    /* ---- search highlighting ---- */
+    function clearMarks() {
+      root.querySelectorAll('mark.sched-hit').forEach(function (m) {
+        m.replaceWith(document.createTextNode(m.textContent));
+      });
+      tbody.normalize();
+    }
+    function escapeRe(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+    function markRow(tr, re) {
+      var walker = document.createTreeWalker(tr, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (n) {
+          if (!n.nodeValue.trim() || n.parentNode.closest('.sched-badge')) return NodeFilter.FILTER_REJECT;
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+      var nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      nodes.forEach(function (node) {
+        var text = node.nodeValue;
+        re.lastIndex = 0;
+        if (!re.test(text)) return;
+        re.lastIndex = 0;
+        var frag = document.createDocumentFragment(), last = 0, m;
+        while ((m = re.exec(text))) {
+          frag.appendChild(document.createTextNode(text.slice(last, m.index)));
+          var mk = document.createElement('mark');
+          mk.className = 'sched-hit';
+          mk.textContent = m[0];
+          frag.appendChild(mk);
+          last = m.index + m[0].length;
+        }
+        frag.appendChild(document.createTextNode(text.slice(last)));
+        node.replaceWith(frag);
+      });
+    }
+
+    /* ---- empty state row ---- */
+    var emptyRow = document.createElement('tr');
+    emptyRow.hidden = true;
+    var emptyCell = document.createElement('td');
+    emptyCell.className = 'sched-empty';
+    emptyCell.colSpan = 7;
+    emptyRow.appendChild(emptyCell);
+    tbody.appendChild(emptyRow);
+
+    /* ---- filtering ---- */
+    function apply() {
+      var q = search.value.trim().toLowerCase();
+      var re = q ? new RegExp(escapeRe(q), 'gi') : null;
+      var shown = 0;
+      clearMarks();
+      rows.forEach(function (tr) {
+        var ok = (!q || tr._text.indexOf(q) !== -1) &&
+                 !(hidePast.checked && tr.classList.contains('is-past'));
+        tr.hidden = !ok;
+        if (ok) { shown++; if (re) markRow(tr, re); }
+      });
+      emptyRow.hidden = shown !== 0;
+      if (!shown) {
+        emptyCell.textContent = q
+          ? 'No weeks match "' + search.value.trim() + '". Try a speaker, lab, or assignment number.'
+          : 'Every week is in the past. Turn off "Hide past weeks" to see them.';
+      }
+      status.textContent = (q || hidePast.checked)
+        ? 'Showing ' + shown + ' of ' + rows.length + ' entries'
+        : '';
+    }
+
+    var timer;
+    search.addEventListener('input', function () { clearTimeout(timer); timer = setTimeout(apply, 120); });
+    search.addEventListener('keydown', function (e) { if (e.key === 'Escape') { search.value = ''; apply(); } });
+    hidePast.addEventListener('change', apply);
+
+    /* ---- column toggles ---- */
+    function syncColumns() {
+      var visible = 0;
+      colBtns.forEach(function (b) {
+        var on = b.getAttribute('aria-pressed') === 'true';
+        root.classList.toggle('hide-' + b.dataset.col, !on);
+        if (on) visible++;
+      });
+      spans.forEach(function (td) { td.colSpan = visible; });
+      emptyCell.colSpan = 2 + visible;
+    }
+    colBtns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var on = b.getAttribute('aria-pressed') === 'true';
+        var onCount = root.querySelectorAll('[data-col][aria-pressed="true"]').length;
+        if (on && onCount === 1) return; /* keep at least one column */
+        b.setAttribute('aria-pressed', on ? 'false' : 'true');
+        syncColumns();
+      });
+    });
+
+    /* ---- jump to next class ---- */
+    jumpBtn.addEventListener('click', function () {
+      if (!nextRow) return;
+      if (nextRow.hidden) { search.value = ''; hidePast.checked = false; apply(); }
+      var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      nextRow.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' });
+      nextRow.classList.remove('is-flash');
+      void nextRow.offsetWidth;
+      nextRow.classList.add('is-flash');
+    });
+
+    syncColumns();
+    apply();
+  })();
+  </script>
+</div>
+```

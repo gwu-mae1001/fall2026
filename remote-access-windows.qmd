@@ -1,0 +1,105 @@
+---
+title: "Remote Access to GWU Computing Labs from Windows computers"
+format: 
+  html:
+    code-copy: false
+---
+
+<html>
+<head>
+    <style>
+        body {
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+/Edge */
+            user-select: none; /* Standard */
+        }
+    </style>
+</head>
+<body>
+
+:::{.callout-important}
+**Referencing the content in this webpage:**
+
+Bulusu, Kartik V. (2026, October 17). Introduction to Mechanical and Aerospace Engineering [Course lecture notes, codes and presentations]. Department of Mechanical and Aerospace Engineering, The George Washington University.
+:::
+
+## Introduction
+
+This guide will take you through the step-by-step process of how to remotely access GWU Computing Labs from your Windows system. 
+
+
+## Prerequisites
+
+Before you start, make sure you have the following:
+
+1. A Windows 10+ computer.
+2. An active internet connection.
+3. Adequate disk space for the installation.
+
+
+## Installation Steps
+
+### 1. Connect to the GW VPN.
+Note: Go to [GWU VPN installation instructions](vpn-windows.qmd) page for the instructions on how to install GWU VPN client.
+
+<!-- ![Visit Official Website](/thonny-mac/Step_1.png) -->
+
+
+### 2. Type the software you are looking for (for example, Solidworks, MATLAB etc) and Locate a GWU Computing Lab on the map
+Visit this [link](https://keyserver.it.gwu.edu/maps/std). Type in the search bar the software you want to work on. Select a building you would like to use. 
+
+![GWU Computing Lab map](/Remote_Access_Instructions/Windows_Step1.png)
+
+
+### 3. Click on the lab you would like to use. 
+It will open up a browser to that lab, with the layout of the lab. 
+*Green* indicates *Available to Connect*. 
+*Blue* indicates *Turned Off*. 
+*Red* indicates *In Use*. 
+
+![Connect to a GWU Computing Lab](/Remote_Access_Instructions/Windows_Step2.png)
+
+### 4. Click on a computer that is available
+In this step you will have to Connect to the computer and download the client software as shown in the images below. 
+ 
+![Click on a computer](/Remote_Access_Instructions/Windows_Step3.png)
+
+![Connect to the computer](/Remote_Access_Instructions/Windows_Step4.png)
+
+![Download the necessary software piece](/Remote_Access_Instructions/Windows_Step5.png)
+
+### 5. Open the downloaded software. 
+It is usually saved in the ‘Downloads’ folder. 
+
+![Initiate the downloaded software](/Remote_Access_Instructions/Windows_Step6.png)
+
+### 6. Continue with the application
+Your Antivirus might pop up to verify this application. 
+Since you know this computer is managed by the SEAS Computing Facility team, Click connect to Continue. 
+Enter your GW login credentials.
+If certificate errors pop up, click ‘Yes’ to continue connecting to the remote desktop. 
+
+![Enter your GWU credentials](/Remote_Access_Instructions/Windows_Step7.png)
+
+![Click 'Continue'](/Remote_Access_Instructions/Windows_Step8.png)
+
+![Click 'Continue'](/Remote_Access_Instructions/Windows_Step9.png)
+
+## Conclusion
+You will be automatically logged into the remote computer and will see your desktop being set up. 
+Please wait for one minute while your desktop loads.
+
+Congratulations! You have now successfully logged in remotely to a GWU Computing lab computer.
+
+<!-- Start coding with Thonny, and if you need more guidance, consult the official documentation at [https://github.com/thonny/thonny/wiki](https://github.com/thonny/thonny/wiki).  -->
+
+<!-- For any issues or questions, feel free to seek assistance from the Thonny community or refer to the documentation for troubleshooting tips. -->
+
+
+<!-- <footer>
+  <p>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2025 All rights reserved</p>
+</footer> -->

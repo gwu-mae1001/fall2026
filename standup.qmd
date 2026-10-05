@@ -1,0 +1,235 @@
+---
+title: "Student panelists"
+format: 
+  html:
+    code-copy: false
+---
+
+<html>
+<head>
+    <style>
+        body {
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+/Edge */
+            user-select: none; /* Standard */
+        }
+    </style>
+</head>
+<body>
+
+:::{.callout-important}
+**Referencing the content in this webpage:**
+
+Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace Engineering [Course lecture notes, codes and presentations]. Department of Mechanical and Aerospace Engineering, The George Washington University.
+:::
+
+## Grace Welsh
+<div id="grace-welsh"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **Hi! I am Grace Welsh**. I am a 4+1 Masters Student studying MAE. I have worked in composite material testing, design and manufacturing, and prototyping. I am also a TA for mechanical design of machine elements. I was a Presidential Scholar at GWU durung my undergraduate studies. I was also a part of the rocket team (aerostructures), SEASSPAN and A.O.E. (Alpha Omega Epsilon).
+
+
+      **Email**: <a href="mailto:gracewelsh27@gwmail.gwu.edu">gracewelsh27@gwmail.gwu.edu</a>
+
+      [**LinkedIn**](https://www.linkedin.com/in/grace-welsh-384b7326a/)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/gracewelsh_headshot2.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Maggie Lee 
+<div id="maggiee-lee "></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **My name is Maggie Lee** and I am a senior studying mechanical engineering with a concentration in aerospace! I recently interned with Wing Aviation as a field and product engineer and have also worked with MDOT. I am involved on the GW Rocket Team, SEASSPAN, SWE, and GW Balance.
+
+      **Email**: TBA
+      <!-- <a href="mailto:slevine15@gwmail.gwu.edu">slevine15@gwmail.gwu.edu</a> -->
+
+      [**LinkedIn**](https://www.linkedin.com/in/margaret-lee-224a6a293/)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/maggie_lee_headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>      
+
+## Will Carr
+<div id="will-carr"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **I'm Will Carr, Junior in Mechanical Engineering** from Northern California and love to surf and ride motorcycles at home. Here at GW I am involved in multiple Student orgs, GW Baja where I teach new members how to design and manufacture an off road race car, and GW TRAiLS where I lead outdoor trips with everything from whitewater rafting, backpacking, day hikes, and more! I also am currently working on research with SEAS and SMHS developing the PCAD medical device project.
+
+      **Email**: TBA
+      <!-- <a href="mailto:slevine15@gwmail.gwu.edu">slevine15@gwmail.gwu.edu</a> -->
+
+      [**LinkedIn**](https://www.linkedin.com/in/will--carr/)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/will_carr_headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Zain Mohsin
+<div id="zain-mohsin"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **Hi, my name is Zain Mohsin** and I am a Senior in Mechanical Engineering from Michigan. I love being creative, being active, and working on designs for the GW Design/Build/Fly team. 
+
+      **Email**: TBA
+      <!-- <a href="mailto:slevine15@gwmail.gwu.edu">slevine15@gwmail.gwu.edu</a> -->
+
+      [**LinkedIn**](https://www.linkedin.com/in/zain-mohsin-a363472aa/)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/zain_mohsin_headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+
+
+<!-- ## Julia McGillivray
+<div id="julia-mcgillivray"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **Hi, my name is Julia McGillivray**! My experience and interests lie in aerodynamic and fluid analysis. I interned at Draper over the summer, gaining real-world project experience in aerospace, and am staying on part-time for the year! I joined Design-Build-Fly this year, and was on Engineers without Borders for two years. I also work in the admissions office, representing my experience with the MAE department here. I am also a Presidential Scholar at The George Washington University.
+
+      **Email**: <a href="mailto:julia_mcg26@gwmail.gwu.edu">julia_mcg26@gwmail.gwu.edu</a>
+
+      [**LinkedIn**](https://www.linkedin.com/in/julia-mcgillivray/)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/JuliaMcGillivray_Headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Luis Soto Moyers 
+ <div id="luis-soto-moyers"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **Luis Soto Moyers** is a fourth-year Mechanical and Aerospace Engineering student at the George Washington University, working in the Thermo-Fluids Laboratory. He has experience in experimental research, engineering design, and programming. Luis serves as President of SHPE, is a Theta Tau alum, and is fluent in English and Spanish.
+
+
+      **Email**: <a href="mailto:lsotomoyers26@gwmail.gwu.edu">lsotomoyers26@gwmail.gwu.edu</a>
+
+      [**LinkedIn**](https://www.linkedin.com/in/dominic-savarino/)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/LuisSotoMoyers_Headshot.JPG" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+
+## Dominic Savarino
+<div id="dominic-savarino"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **Dominic Savarino (BS ‘25, MS ‘26)** is a MAE teaching assistant and graduate student studying robotics and controls. While an undergraduate at GW, he completed internships with PennDOT, Space Telescope Science Institute, and GW Intelligent Aerospace Systems Lab, studied abroad, and was a part of organizations such as Clark Scholars, SEASSPAN, ASME, and Pi Tau Sigma.
+
+
+      **Email**: <a href="mailto:dsavarino@email.gwu.edu">dsavarino@email.gwu.edu</a>
+
+      [**LinkedIn**](https://www.linkedin.com/in/dominic-savarino/)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/DominicSavarino_Headshot.jpg" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Marc-Andre Berthin
+<div id="marc-berthin"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      Hey everyone, my name is **Marc-Andre Berthin** and I am a senior MAE student passionate about advancing space technology! At GW, I have been involved with undergraduate research and several orgs such as CubeSat and SEASSPAN. Outside of academics, I enjoy watching/playing soccer and football, traveling, and studying geography!
+
+      **Email**: <a href="mailto:maberthin22@gwmail.gwu.edu">maberthin22@gwmail.gwu.edu</a>
+
+      [**LinkedIn**](https://www.linkedin.com/in/marcandreberthin/)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/MAB_Headshot.jpg" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Leonardo Borchert
+<div id="leonardo-borchert"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **Leonardo Borchert** is a Mechanical and Aerospace Engineering student at the George Washington University. As Propulsion Division Lead for the GW Rocket Team and a three-time NIST CHIPS Act fellow, his work spans advanced propulsion and semiconductor research. He aspires to pioneer next-generation aerospace systems through industry and entrepreneurship. 
+
+
+      **Email**: <a href="mailto:leoborchert@gwu.edu">mleoborchert@gwu.edu</a>
+
+      [**LinkedIn**](https://www.linkedin.com/in/leonardo-borchert-993212260/)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/LeonardoBorchert_Headshot.jpg" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
+
+## Kaan Tastan
+<div id="kaan-tastan"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+    **Kaan Tastan** is a senior Mech.E. student at GWU and President of the ASME student chapter. In Professor Bardet’s Thermo-Fluids Lab, he designs auxiliary systems for the BPF water flow loop. He has also led dual-stage rocketry projects. After graduation, he will commission as a U.S. Navy Nuclear Submarine Officer.
+
+
+      **Email**: <a href="mailto:kaantastan@gwu.edu">kaantastan@gwu.edu</a>
+
+      [**LinkedIn**](https://www.linkedin.com/in/kaan-tastan/)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/KaanTastan_Headshot.jpg" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table> -->
+
+
+<!-- <br><br>
+<footer>
+  <p><small><small><small><small>This is a Quarto website. To learn more about Quarto websites visit <https://quarto.org/docs/websites>.<br>
+  Author: Kartik Bulusu<br>
+  Contact: <a href="mailto:bulusu@gwu.edu">bulusu</a><br>
+  &copy; 2023 All rights reserved</small></small></small></small></p>
+</footer> -->

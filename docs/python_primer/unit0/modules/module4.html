@@ -1,0 +1,1788 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Kartik Bulusu">
+<meta name="dcterms.date" content="2026-10-04">
+
+<title>Module 4: Integers – MAE 1001 [Fall 2026]</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-a84560db3aa830e0ae590d58b43c8d8d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      MAE 1001 [Fall 2026]
+      </li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../../../">MAE 1001 [Fall 2026]</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Getting Started</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../getting_started.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MUST READ Preliminaries</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../install-editor.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">MUST DO Software Installations</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../guidelines.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Course Policies</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../objectives.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Learning Objectives</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../standup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Student Panel</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../instructor.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Instruction Team</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link active" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#first-an-analogy" id="toc-first-an-analogy" class="nav-link" data-scroll-target="#first-an-analogy">4.0 First, an analogy</a></li>
+  <li><a href="#integer-variables" id="toc-integer-variables" class="nav-link" data-scroll-target="#integer-variables">4.1 Integer variables</a></li>
+  <li><a href="#integer-operators" id="toc-integer-operators" class="nav-link" data-scroll-target="#integer-operators">4.2 Integer operators</a></li>
+  <li><a href="#expressions-and-operator-precedence" id="toc-expressions-and-operator-precedence" class="nav-link" data-scroll-target="#expressions-and-operator-precedence">4.3 Expressions and operator-precedence</a></li>
+  <li><a href="#objectives-1" id="toc-objectives-1" class="nav-link" data-scroll-target="#objectives-1">Objectives</a></li>
+  <li><a href="#what-are-real-numbers" id="toc-what-are-real-numbers" class="nav-link" data-scroll-target="#what-are-real-numbers">6.0 What are real numbers?</a></li>
+  <li><a href="#going-from-reals-to-integers-and-strings" id="toc-going-from-reals-to-integers-and-strings" class="nav-link" data-scroll-target="#going-from-reals-to-integers-and-strings">6.1 Going from reals to integers and strings</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><strong>Module 4:</strong> Integers</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kartik Bulusu </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 4, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+
+
+<style>
+        body {
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+/Edge */
+            user-select: none; /* Standard */
+        }
+    </style>
+
+
+<!-- <div class="breadcrumbs">
+  <a href="../../../index.qmd">Home</a> &raquo;
+  <a href="">Unit 0</a> &raquo;
+  <span class="current-page">Module 4</span>
+</div> -->
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Before proceeding with Module 4 you would need to install <code>matplotlib</code> library. Follow these guides to learn about how to install packages in Thonny on a <a href="../../../python_primer/unit0/guides/thonny-mac-matplotlib.html"><strong>Mac</strong></a> or <a href="../../../python_primer/unit0/guides/thonny-win-matplotlib.html"><strong>Windows</strong></a> computer.</p>
+</div>
+</div>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">Objectives</h2>
+<p>By the end of this module, for simple HelloWorld-like programs, you will be able to:</p>
+<ul>
+<li>Create variable declarations.</li>
+<li>Assign values to variables by simple assignment, and print them out.</li>
+<li>Distinguish between integers in strings versus actual integers.</li>
+<li>Demonstrate ability to perform operations on integers for a desired output.</li>
+<li>Simplify expressions with constants to single value.</li>
+<li>Evaluate expressions with variables in them.</li>
+<li>Convert English descriptions of operations into expressions.</li>
+<li>Mentally trace execution with expressions and calculations.</li>
+<li>Mentally trace expressions and calculations inside for-loops.</li>
+<li>Produce desired output using for-loops and calculations.</li>
+<li>Identify new syntactic elements related to the above.</li>
+</ul>
+<p>And, once we’ve worked with integers, we’ll also do some “number crunching”.</p>
+</section>
+<section id="first-an-analogy" class="level2">
+<h2 class="anchored" data-anchor-id="first-an-analogy">4.0 First, an analogy</h2>
+<p>Suppose we have boxes. Consider the following rules about “boxes”:</p>
+<ul>
+<li>Each box can store only one item.</li>
+</ul>
+<p><img src="../../../media/units/unit0/module4/box.PNG" class="img-fluid"></p>
+<ul>
+<li>The possible things that can be stored inside are called <em>values</em>.</li>
+<li>Thus, at any given moment, a box’s value is whatever’s inside it.</li>
+<li>Each box has a unique <em>name</em>:</li>
+</ul>
+<p><img src="../../../media/units/unit0/module4/box3.PNG" class="img-fluid"></p>
+<ul>
+<li>There is a <em>cloning</em> process that works like this: <img src="../../../media/units/unit0/module4/box4.PNG" class="img-fluid">
+<ul>
+<li>The value inside one box is cloned.</li>
+<li>The cloned value is placed inside another.</li>
+</ul></li>
+<li>There is a strange shortcut notation to specify cloning: <img src="../../../media/units/unit0/module4/box5.PNG" class="img-fluid">
+<ul>
+<li>Here, the <code>=</code> (equals sign) does NOT mean “equals.”</li>
+<li>It has been repurposed to mean “clone”, “copy,” or, in programming-language jargon, “assign”.</li>
+</ul></li>
+<li>How to say it: “x is assigned the value in y”.</li>
+<li><strong>Important:</strong> Remember, a box can hold only one value at a time.</li>
+<li>The technical term for our informal “box” is <em>variable</em>.</li>
+</ul>
+</section>
+<section id="integer-variables" class="level2">
+<h2 class="anchored" data-anchor-id="integer-variables">4.1 Integer variables</h2>
+<p>We’ll now start working with “boxes” (variables) that hold <em>integers</em> (whole numbers like 3, 17, 2097, but not numbers like 3.141).</p>
+<p>Consider this program:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(i)</span></code></pre></div>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 4.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Type up the program in <code>my_variable_example.py</code>. Also save the file so that it can be submitted (Remember: you need to save the appropriate files for every such “type up” exercise).</p>
+</div>
+</div>
+<ul>
+<li>Now let’s examine key parts of this program:</li>
+<li>First, <code>i</code> is the <em>name</em> of a “box” (of sorts).</li>
+<li>The term used for “box” is <em>variable</em>.&nbsp;&nbsp;&nbsp;&nbsp;<br>
+⇒ <code>i</code> is a variable.</li>
+<li>To put something in a variable, we use <em>assignment</em>&nbsp;&nbsp;<br>
+⇒ with the repurposed <code>=</code> (equals) sign. <img src="../../../media/units/unit0/module4/int1.png" class="img-fluid"></li>
+<li>When we print a variable, what gets printed is its <em>value</em>. &nbsp;&nbsp;<br>
+⇒ Thus, the number <code>5</code> gets printed <img src="../../../media/units/unit0/module4/int2.png" class="img-fluid"></li>
+<li><strong>Important:</strong> What you see on printed out is the number <code>5</code> and NOT the letter <code>i</code></li>
+<li>Thus when you see <code>print(i)</code>you should think:
+<ul>
+<li>“Hmmm, the print function is going to print the contents of variable i”.</li>
+<li>“I wonder what’s inside i?”</li>
+<li>“Let me look in the program to see what was the most recent value that got written into i”.</li>
+</ul></li>
+</ul>
+<p>For example:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">3</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(i)</span></code></pre></div>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 4.2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Type up the above in <code>my_variable_example2.py</code> and confirm that 3 is what gets printed.</p>
+</div>
+</div>
+<p>By way of explanation: <img src="../../../media/units/unit0/module4/int2.png" class="img-fluid"></p>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 4.3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Is it possible to not have a value in a variable? Consider this program:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>i</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(i)</span></code></pre></div>
+<p>Type up the program in <code>my_variable_example3.py</code> and run it to check if there are any errors to confirm if it is possible to not have a value in a variable. Submit the program.</p>
+</div>
+</div>
+<p>Thus: when you make a variable, you need to put something in it. - Next, let’s look at <em>assignment</em> between variables: - This is the analogue of cloning between “boxes”.</p>
+<p>Consider this program:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> i     <span class="co"># The value in i gets copied into j</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(j)  <span class="co"># Prints 5</span></span></code></pre></div>
+<ul>
+<li>We say, in short, “<code>i</code> is assigned to <code>j</code>”.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>We’ve used comments above to annotate and explain.</p>
+<ul>
+<li>We’ll do this often, knowing that comments are not <em>executed</em>.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 4.4
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Consider this program:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> i</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(j)</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(i)   <span class="co"># Did i lose its value?</span></span></code></pre></div>
+<p>Type up the program in <code>my_variable_example4.py</code> and use comments (text followed by ‘#’ symbol) to describe what happens with <code>print(i)</code>. Include ‘Yes’ or ‘No’ at the end of the comment, # Did I lose its value? Submit the python file.</p>
+</div>
+</div>
+<p>The above example illustrates that the value in <code>i</code> gets copied into the variable <code>j</code>, which means that the value 5 is still in the variable <code>i</code>.</p>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 4.5
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Consider this program:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> i</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> j</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(k)</span></code></pre></div>
+<p>Try to identify the output of this program just by mental execution. Type up the program in <code>my_variable_example5.py</code> and confirm.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 4.6
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Consider this program:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> i</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> j</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(k)</span></code></pre></div>
+<p>Try to identify the output of this program just by mental execution. Type up the program in <code>my_variable_example6.py</code> and confirm.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A copied value does not change if the original is changed</p>
+</div>
+</div>
+<p>For example, consider:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> i      <span class="co"># j now has 5</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">0</span>      <span class="co"># We changed i here</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(j)   <span class="co"># j still has 5</span></span></code></pre></div>
+<ul>
+<li>Here’s the line-by-line execution:
+<ul>
+<li>The first line puts the value 5 in variable i.</li>
+<li>The second line <em>copies</em> the value in i (which is 5) into j. So j will have the value 5 as well.</li>
+<li>The third line replaces the value 5 with value 0.</li>
+<li>j still has 5, so the fourth line will print 5.</li>
+</ul></li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>0 is an actual value, and is not “no value” or “nothing”.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 4.8
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Consider this program:</p>
+<p>Type up the following lines of code in <code>my_variable_example7.py</code>:</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">6</span>      </span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Add code between here</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="co"># and here.</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(i)   <span class="co"># should print 6</span></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(j)   <span class="co"># should print 5</span></span></code></pre></div>
+<p>Add some lines of code with the objective of swapping the values in variables i and j. You will need a third variable to be used as a holding place. Thus, without directly assigning the number 5 to j or the number 6 to i, write code using a third variable to achieve the desired swapping of values.</p>
+</div>
+</div>
+</section>
+<section id="integer-operators" class="level2">
+<h2 class="anchored" data-anchor-id="integer-operators">4.2 Integer operators</h2>
+<p>Let’s examine the familiar <em>arithmetic operators</em> <code>+, -, *, /</code></p>
+<ul>
+<li>Addition: <code>+</code></li>
+<li>Subtraction: <code>-</code></li>
+<li>Multiplication: <code>*</code></li>
+<li>Division: <code>/</code></li>
+</ul>
+<p>Consider this example with addition:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">6</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> i <span class="op">+</span> j</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(k)</span></code></pre></div>
+<ul>
+<li>What happens during execution: <img src="../../../media/units/unit0/module4/binary2.PNG" class="img-fluid">
+<ul>
+<li>The <em>values</em> in <code>i</code> and <code>j</code> are added.</li>
+<li>The resulting <em>value</em> goes into variable <code>k</code>.</li>
+</ul></li>
+<li>A long-ish way of saying this aloud:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+⇒ “<code>k</code> is assigned the sum of the values of <code>i</code> and <code>j</code>”</li>
+<li>A shorter way:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+⇒ “<code>k</code> is assigned <code>i</code> plus <code>j</code>”</li>
+</ul>
+<p>Here’s an example with multiplication and division:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">6</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> i <span class="op">*</span> j</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(k)      <span class="co"># prints 30</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>m <span class="op">=</span> i <span class="op">/</span> j</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(m)      <span class="co"># what does this print?</span></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> i <span class="op">//</span> j</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(n)      <span class="co"># what does this print?</span></span></code></pre></div>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 4.10
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Type up the above in <code>my_variable_example8.py</code>. Run the program and answer the following questions for yourself:</p>
+<ul>
+<li>What is the value of <code>n</code> printed?</li>
+<li>Change <code>i</code> to <code>21</code>. What is the value of <code>n</code> printed ?</li>
+<li>Submit your code with <code>i</code> set to <code>5</code>.</li>
+</ul>
+</div>
+</div>
+<p>Integer division: - In math, we learned that 1/4 = 0.25 and 21/6 = 3.5.</p>
+<ul>
+<li><p>This remains true in Python when we do something like</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>      i <span class="op">=</span> <span class="dv">21</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>      j <span class="op">=</span> <span class="dv">6</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>      m <span class="op">=</span> i <span class="op">/</span> j</span></code></pre></div></li>
+<li><p>On the other hand, if we wish to perform <em>integer division</em>, we can use the integer division operator:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>      i <span class="op">=</span> <span class="dv">21</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>      j <span class="op">=</span> <span class="dv">6</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>      m <span class="op">=</span> i <span class="op">//</span> j</span></code></pre></div></li>
+<li><p>That is, the result is truncated <em>down</em> to the nearest integer.</p>
+<ul>
+<li><strong>Example:</strong> 3 // 2 becomes 1 because 1.5 gets truncated to 1.</li>
+<li><strong>Example:</strong> 15 // 4 becomes 3 because 3.75 gets truncated to 3.</li>
+</ul></li>
+<li><p>Integer division is useful when we want to do integer arithmetic.</p></li>
+</ul>
+</section>
+<section id="expressions-and-operator-precedence" class="level2">
+<h2 class="anchored" data-anchor-id="expressions-and-operator-precedence">4.3 Expressions and operator-precedence</h2>
+<p>Consider the following program:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> <span class="dv">6</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>k <span class="op">=</span> i<span class="op">*</span>j <span class="op">-</span> (i<span class="op">+</span><span class="dv">1</span>)<span class="op">*</span>(j<span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(k)</span></code></pre></div>
+<p>About expressions:</p>
+<ul>
+<li>An expression combines constants (like <code>1</code>, above), and variables using operators.</li>
+<li>Example: <code>i*j - (i+1)*(j-1)</code>.</li>
+<li>The above expression is really equivalent to: <code>(i*j) - ((i+1) * (j-1))</code>. Here, we added some clarifying parentheses.</li>
+<li>Operator <em>precedence</em> allows us to reduce the number of clarifying parentheses.</li>
+<li>Python precedence follows standard precedence in math: <code>/, *, +, -</code>.</li>
+<li>You might remember the precedence via the acronyms <strong>BODMAS</strong> or <strong>PEMDAS</strong>. (Look it up.)</li>
+<li>The above expression is NOT the same as: <code>i*j - i+1*j-1</code>.</li>
+<li>Also, note the change of whitespace:
+<ul>
+<li>We could have written <code>k = i * j - (i + 1) * (j - 1)</code>.</li>
+<li>But <code>k = i*j - (i+1)*(j-1)</code> is easier to read.</li>
+</ul></li>
+</ul>
+<p>Let’s dive a bit deeper into precedence and do some examples:</p>
+<ul>
+<li>We’ll use the four operators: add or +, subtraction or -, multiplication or *, and division or /.</li>
+<li>We’ll use plain ol’ numbers to illustrate.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The key to working them out is to use <b>extra</b> parentheses in the right way.</p>
+</div>
+</div>
+<ul>
+<li>The PEMDAS rule:
+<ul>
+<li>First apply Parentheses, then Exponents, then Multiplication and Division, and then Addition and Subtraction.</li>
+</ul></li>
+<li>Example: 3 + 2*4
+<ul>
+<li>Here, we apply 2*4 to give 8</li>
+<li>Then do 3 + 8 to give 11.</li>
+<li>Applying extra parenthesis to 3 + (2*4) makes it clear.</li>
+</ul></li>
+<li>Example: 3<em>(24/3-2</em>3)
+<ul>
+<li>First, work out what’s inside the parens (the P of PEMDAS):
+<ul>
+<li>Do div to 24/3 and mult to 2*3 to get (8 - 6)</li>
+<li>This gives (2)</li>
+</ul></li>
+<li>Now go out and see that we need to do 3*(2)</li>
+<li>Which gives 6.</li>
+<li>Using extra parens and spacing makes it clear: 3 * ( (24/3) - (2*3) )</li>
+</ul></li>
+<li>Example: 1 + ( (4 - 1) * 8) / 6
+<ul>
+<li>Do the innermost parens first: (4 -1) = 3</li>
+<li>Which results in 1 + (3 * 8) / 6</li>
+<li>Then the next parens to give: 1 + 24/6</li>
+<li>Then the D in PEMDAS: 1 + 4</li>
+<li>Result: 5</li>
+</ul></li>
+</ul>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 4.12
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Use the PEMDAS rule to evaluate mentally or by hand the expression, <code>i*j - i+1*j-1</code> when <code>i = 7</code> and <code>j = 3</code>. Write a Python program <code>my_expression_example1.py</code> to evaluate the expression and print your answer.</p>
+</div>
+</div>
+<!-- ## 4.4 More about expressions and assignment
+The <em>remainder</em> operator:
+
+- The expression 10 % 3 is "the remainder when 10 is divided by 3".
+- Thus 10 % 3 is 1.
+- Similarly 11 % 4 is 3.
+- The remainder operator is sometimes called <em>modulo</em>, as in "ten modulo 3 is 1"
+
+Consider this example:
+```python
+i = 14
+j = -6
+k = i % (-j)
+print(k)
+```
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.14
+
+Can you mentally execute and identify what's printed? Type up the above in `my_expression_example2.py` to confirm.
+:::
+
+One way to know whether one number cleanly divides another is to apply the `%` (remainder) operator.
+
+Consider this program:
+```python
+j = 10
+for i in range(1, j):
+    k = j % i
+    print(k)
+```
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.15
+
+Can you mentally execute and identify what's printed? Type up the above in `my_expression_example3.py` to confirm. Then change j to 11 and run the program. When submitting the code, leave j as 11.
+:::
+
+:::{.callout-note}
+- In the above exercise we systematically obtained the remainder when dividing 10 (the value of j) by every possible number less than 10.
+- Whenever the output is 0 in some iteration, we know 10 % i is 0 for that iteration.
+- This means i divides 10 cleanly (with no remainder).
+- For example 10 % 5 is 0.
+- Whenever a number j has nothing less than j that divides j cleanly, the number is called a <em>prime number</em>.
+- Examples of prime numbers: 7 and 11.
+- Examples of non-prime numbers: 10 and 15
+- The notion of a prime number may seem like an esoteric topic, suitable for a dinner conversation with mathematicians. But it turns out to have immense practical value: much of cryptography is based on properties of numbers that can be cleanly divided by only two prime numbers. 
+:::
+
+
+
+Now we'll look at a strange (initially) but very useful type of assignment:
+
+Consider this program:
+```python
+i = 8
+i = i + i/2
+print(i)
+```
+
+- Prior to evaluating the expression, `i` has value `8`.
+- On the right side, the current value of `i` is used to <em>evaluate</em> the expression.
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+      &rArr; Thus, the expression evaluates to `(8 + 8/2) = 12`.
+- This evaluated value then goes into variable `i`.
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+      &rArr; After the assignment, `i` has the value `12`.
+
+Let's use this to compute the sum of numbers from 0 to 10:
+```python
+s = 0
+for i in range(0, 11):
+    s = s + i
+print(s)
+```
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.17
+
+Trace the changing values of `s` in the above program using the following kind of table:
+![](../../../media/units/unit0/module4/tracetable.PNG)
+
+There is nothing to submit in this exercise, but it is highly recommended that you complete the tracing exercise using a spreadsheet or a document.
+:::
+
+:::{.callout-note}
+In this and other tracing exercises involving a table, you can simply draw the table by hand and include a picture. (That is, you don't have to spend time on making tables inside Word.)
+:::
+
+Consider this program:
+```python
+N = 5
+s = 0
+for i in range(1, N+1):
+    s = s + (2*i - 1)
+print(s)
+```
+- The program prints the sum of the first N odd numbers.
+- Recall from earlier that as i goes through 1, 2, 3, ... (2*i-1) evaluates as successive odd numbers 1, 3, 5, ...
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.18
+
+Write up the above program in `my_expression_example4.py`, edit the code to create an outer loop that varies N from 1 to 10... That is, make N a new for-loop variable that ranges between 1 and 10 (inclusive), and ensure that you properly indent the inner (nested) loop that uses i. 
+
+Review [**Section 3.3**](https://gwu-csci1012.github.io/units/unit0/modules/module3.html#tracing-through-a-program-in-detail) in **Unit0 » Module3** to understand how the inner and outer loop are indented in a `nested-for-loop` and ensure that the inner for-loop that uses I is properly indented. 
+
+Submit a working program as `my_expression_example4.py`.
+:::
+
+
+
+## 4.5 Problem solving and pseudocode
+Suppose we were given the following problem: <em>write a program to print the first <i>N</i> odd numbers</em>.
+
+We'll solve it in the following steps:
+
+- First, let's sketch out a "program-like" outline (not a real program):
+  ```python
+  N = 10      
+  for i ranging from 1 to N:
+      Calculate the i-th odd number
+      Print it
+  ```
+
+- This kind of rough outline is called <em>pseudocode</em>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+  &rArr; We're meant to do this on paper, prior to programming.
+- Pseudocode looks a little like code, but is half-English.
+- For any given `i`, the `i`-th odd number is:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+  `2*i - 1`.
+- Now let's put this together into a program:
+  ```python
+  N = 10
+  for i in range(1, N+1):
+      k = (2*i - 1)
+      print(k)
+  ```
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.20
+
+Trace the values of `i` and `k` in the program above using a table in a spreadsheet or a document. It is highly recommended that you complete the tracing exercise using a spreadsheet or a document, though you are not submitting the tracing spreadsheet or document. Write up the above program in `loop_exercise1.py`and submit it.
+:::
+
+## 4.6 A problem-solving example with variables and nested for-loops
+We'll solve the following problem: <em>for any given <i>n</i>, compute</em>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+  1 + 2<sup>1</sup> + 2<sup>2</sup> 
+  + 2<sup>3</sup> + ... + 2<sup>n</sup> 
+
+That is, the sum of consecutive powers of 2.
+
+As a first step, let's see if we can use a loop to compute a single power of 2:
+  
+- Suppose we wish to compute <i>2<sup>k</sup></i> for some <i>k</i>.
+
+- We know that 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+  <i>2<sup>k</sup>
+  =  2*2*2 ... *2</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (k times)
+- Thus, what we could is:
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+      Start with p = 1
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+      Multiply by 2: p = p * 2
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+      Multiple that result by 2: p = p * 2
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      
+      ... etc
+- In pseudocode:
+  ```python
+  p = 1  
+  for i ranging from 1 to k:
+    p = p * 2
+  ```
+
+- Let's put this into code and test:
+  ```python
+  k = 10
+  p = 1
+  for i in range(1, k+1):
+      p = p * 2
+  print(p)
+  ```
+
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.21
+
+Trace the changing values of `p` in the above program using a table in a spreadsheet or a document. It is highly recommended that you complete the tracing exercise using a spreadsheet or a document, though you are not submitting the tracing spreadsheet or document. Write up the above program in `my_powerof2.py` and submit it.
+:::
+
+
+
+- Next, let's look at pseudocode for the sum of powers (our original problem):
+  ```python
+  s = 1    
+  for k ranging from 1 to n:
+      Compute k-th power of 2
+      Accumulate in s
+  Print s
+  ```
+- Now, let's put this all together:
+  ```python
+  n = 5
+  s = 1
+  for k in range(1, n+1):
+      p = 1
+      for i in range(1, k+1):
+          p = p * 2
+      s = s + p
+  print(s)
+  ```
+
+- Let's point out a few things.
+  - First, let's have our eyes look over the outer-loop and not focus on the details of the inner loop:
+  ![](../../../media/units/unit0/module4/power.png)
+  - Now look inside the body of the outerloop:
+  ![](../../../media/units/unit0/module4/power2.png)
+  - Try to get a feel for how it executes by looking at the first iteration of the outerloop:
+  ![](../../../media/units/unit0/module4/power3.png)
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.23
+
+Make a table with columns labeled `k, i, p` and `s` and trace the program, filling in the table step-by-step. It is highly recommended that you complete the tracing exercise using a spreadsheet or a document, though you are not submitting the tracing spreadsheet or document.
+:::
+
+
+
+<div id="exercise-4.25"></div>
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.25
+
+Watch the video above and try a few other values of n, e.g., n = 3 or n =4. Try to guess the mathematical formula for 1 + 2<sup>1</sup> + 2<sup>2</sup> + 2<sup>3</sup> + ... + 2<sup>n</sup>. There is nothing to submit in this exercise.
+:::
+
+:::{.callout-tip}
+Add 1 to the sum-of-powers of 2.
+:::
+
+## 4.7 Shortcut operators
+Recall the integer-sum program:
+```python
+s = 0
+for i in range(0, 11):
+    s = s + i
+print(s)
+```
+
+We can write this using the "shortcut addition" operator += as follows:
+```python
+s = 0
+for i in range(0, 11):
+    s += i
+print(s)
+```
+Thus, `s += i` is the same as `s = s + i`
+
+One can read `s += i` as "add i to what's already in s, and store the result in s".
+
+This can be applied to the other operators as well:
+```python
+s -= i         # Same as s = s - i
+p *= 2         # Same as p = p * 2
+d /= 2         # Same as d = d / 2
+```
+
+
+## 4.8 When things go wrong
+As you might imagine, there are many ways to inadvertently create errors.
+
+In each case below, first try to identify the error just by reading. Then, type up the program to confirm.
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.27
+
+What is the error in this program?
+```python
+i = j
+j = 4
+print(i)
+```
+Type up the above program in `error1.py` to confirm the error and submit.
+:::
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.28
+
+What is the error in this program?
+```python
+i = 4
+j = 3
+k = ( (i + j) * (i - j) / 2
+print(k)
+```
+Type up the above program in `error2.py` to confirm the error and submit.
+:::
+
+We'll now see a different kind of error:
+```python
+n = 5
+for i in range(1, n+1):
+    k = n / (n - i)
+    print(k)
+```
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.29
+
+Type up the above program in `error3.py` to confirm the error and submit. Trace through the program to understand why there is an error. It is highly recommended that you complete the tracing, though you are not submitting the tracing spreadsheet or document. See hint below.
+:::
+
+:::{.callout-tip title="Hint"}
+The above is an example of a <em>runtime error</em>:
+
+- The code itself is correctly written in that there are no issues with breaking the rules of the language.
+- However, when i is 0, you can't divide by 0.
+- This causes a runtime error, meaning the program runs fine until the particular occurence of divide-by-zero.
+:::
+
+
+## 4.9 A peek at the future
+Let's now revisit some earlier code <a href="../../../media/units/unit0/module1/hello_gui.py" download >**hello_gui.py**</a> and apply what've learned about integers, arithmetic, and for-loops:
+![](../../../media/units/unit0/module4/for-loop.png)
+
+Next, consider this program that uses a for-loop to plot
+points:
+```python
+from drawtool import DrawTool 
+import math
+
+dt = DrawTool()
+dt.set_XY_range(0,10, 0,10)
+
+for i in range(0, 6):
+    j = 2*i + 1
+    dt.draw_point(i, j)
+
+dt.display()
+```
+
+:::{.callout-caution appearance="simple" icon=false}
+### Exercise 4.30
+
+Download <a href="../../../media/useful/drawtool.py" download>**drawtool.py**</a> into your module4 folder. Then, type up the above in `my_plot_points.py`, and run.
+:::
+
+Let's point out:
+
+- Let's focus on the parts we recognize (the for-loop):
+![](../../../media/units/unit0/module4/for-loop2.png)
+  - So, when i is 0, j is calculated as 1
+  - This plots the point (0,1).
+  - Then, when i is 1, j becomes 3, which results in the point (1,3).
+  - ... and so on.
+
+- The points are the dots shown in the plot.
+- When you downloaded `drawtool.py`, you downloaded another Python program into the same folder.
+  - This is a program that provides drawing and plotting features.
+  - We've used one of its features here (plotting points), and will use `drawtool.py` again in the future.
+
+- Notice that the plotted points are along a straight line, implying a <em>linear</em> relationship between i and j.
+
+- We will occasionally write programs that work with numbers and quantitative concepts. As a result, we'll encounter mathematical ideas in a different way, through programming.
+
+## 4.10 Meta
+Another in our series of occasional "meta" sections that will step back from the material to comment on how we can learn better.
+
+This was a loooong module with lots of exercises and details. Let's review:
+
+- We introduced the all-important concept of a <em>variable</em> along with the sense that there's a "place" in the computer for each variable.
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &rArr; 
+  The "place" is really in the <em>memory</em> (also called RAM) of the computer.
+- Along with variables is the notion of <em>assignment</em>, which means "copying the value in one variable into another variable".
+
+:::{.callout-tip}
+Assignments are amongst the most common of statements in everyday code.
+:::
+
+- When a variable is of a numeric type like integers, we also need to go over basic <em>operators</em> and show examples.
+- Further complications arose when the operators have variations.
+- Since we were on the topic of integers, we took this opportunity to learn how to do some number-crunching.
+- When we got to nested loops, it got tricky following the values of variables through multiple nested loops.
+
+So, if you felt a bit overwhelmed, that's perfectly understandable. If you have to go back to some of the material to review or try some exercises again, that's fine. You're going to get better at this! -->
+</section>
+<section id="objectives-1" class="level2">
+<h2 class="anchored" data-anchor-id="objectives-1">Objectives</h2>
+<p>By the end of this module, for simple programs with real numbers, you will be able to:</p>
+<ul>
+<li>Create variable declarations for variables.</li>
+<li>Assign values to variables by simple assignment, and print them out.</li>
+<li>Demonstrate ability to perform operations for a desired output.</li>
+<li>Evaluate expressions with variables in them.</li>
+<li>Convert English descriptions of operations into expressions.</li>
+<li>Mentally trace execution with expressions and calculations.</li>
+<li>Mentally trace expressions and calculations inside for-loops.</li>
+<li>Produce desired output using for-loops and calculations.</li>
+<li>Identify new syntactic elements related to the above.</li>
+</ul>
+</section>
+<section id="what-are-real-numbers" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-real-numbers">6.0 What are real numbers?</h2>
+<p>Let’s start with some math facts:</p>
+<ul>
+<li><p>Whole numbers like 3, 42 and 1024 are <em>integers</em>. <br> (As an aside: integers include 0 and the negative ones like -2 or -219).</p></li>
+<li><p>The collection of all integers is infinite in size.</p></li>
+<li><p>But integers are limited because some operations on integers do not yield integers:</p>
+<ul>
+<li>30 ÷ 5 gives 6, which is an integer.</li>
+<li>But 31 ÷ 5 is not an integer, yet it’s a quantity.</li>
+</ul></li>
+<li><p>Real numbers <em>include all the integers</em> but also numbers like 3.141, and -615.2368.</p></li>
+<li><p>The collection of all real numbers is also infinite. Interestingly, it’s a bigger kind of infinite (but that’s a rather subtle math argument outside the scope of this course).</p></li>
+<li><p>The term <em>real</em> is just that: a term that’s came about historically to describe all these numbers.</p></li>
+<li><p>You might wonder: is there any other kind of number?</p></li>
+<li><p>Turns out: yes, there a fascinating (and extraordinarily useful) kind of number called an <em>imaginary</em> number, or more generally, a <em>complex</em> number. <br> (We won’t be working with these in his course.)</p></li>
+<li><p>What does one do with real numbers?</p>
+<ul>
+<li>The same operations: +, -, *, /</li>
+<li>What’s nice is that applying these to real numbers will always result in real number results.</li>
+</ul></li>
+<li><p>For example:</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="fl">3.14</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="fl">2.718</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>z <span class="op">=</span> x <span class="op">+</span> y</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(z)</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>w <span class="op">=</span> z <span class="op">*</span> (x <span class="op">+</span> y) <span class="op">/</span> (x <span class="op">-</span> y)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(w)</span></code></pre></div></li>
+</ul>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 6.1
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Type up and submit the above in <code>my_real_example1.py</code>. Confirm that the operations on real number should output a real number in this exercise.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>You might have seen 5.8580000000000005 as the value of z printed out.</li>
+<li>However, you might also have seen something slightly different because of the <em>approximate</em> nature of such calculations, a limitation of computer hardware.</li>
+<li>These tiny errors are tiny indeed, but vary slightly from one computer to another, generally occuring around the 16th decimal place: 0.00000000000000001</li>
+<li>Do we need to worry about this? Only if we are engaged in complex scientific calculations.</li>
+<li>Occasionally, however, it can matter. For example, if two people calculate mortgage interest (with real consequences) slightly differently, it could lead to a legal conflict.</li>
+</ul>
+</div>
+</div>
+<p>Quick review of some relevant math:</p>
+<ul>
+<li><p>One kind of operation that’s useful is <em>power</em>.</p></li>
+<li><p>We write 2<sup>6</sup> to mean 2 x 2 x 2 x 2 x 2 x 2 (six times)</p></li>
+<li><p>It’s easy to see that you could make this work for real numbers that get multiplied: 2.56<sup>6</sup> = 2.56 x 2.56 x 2.56 x 2.56 x 2.56 x 2.56</p></li>
+<li><p>But could you do 2<sup>6.4</sup>? Turns out, yes, you can do this even if it’s not easy to see or intuit. <br>(We would expect 2<sup>6.4</sup> to be larger than 2<sup>6</sup> and smaller than 2<sup>7</sup>, which it is.)</p></li>
+<li><p>The next step then is to allow numbers like 2.56<sup>6.4</sup>.</p></li>
+<li><p>In fact, you can take any real number as the <em>mantissa</em> (the 2.56 in 2.56<sup>6.4</sup>) and any real number as the <em>exponent</em> (the 6.4 in 2.56<sup>6.4</sup>).</p></li>
+<li><p>Let’s put this in code and introduce a new operator to raise a number to a power, as in 2.56<sup>6.4</sup>).</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">2</span> <span class="op">**</span> <span class="dv">6</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="fl">2.56</span> <span class="op">**</span> <span class="fl">6.4</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(y)</span></code></pre></div></li>
+</ul>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 6.2
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Type up the above in <code>my_real_example2.py</code>.</p>
+<ul>
+<li>Don’t submit it yet.</li>
+<li>Now consider the equation 2.56<sup>z</sup> = y. You need to use Python to provide a real number input to the value z such that the value of y becomes 400.</li>
+<li>Type up you lines of Python code to compute the value of y and include them below what you typed already.</li>
+<li>Check if the value of y is approximately 400 by initalizing the value of z = 6.4.</li>
+<li>You don’t have to be accurate. Try chaning the value of z to a number greater than 6.4 and then lower than 6.4 to see how close you can get to 400.</li>
+<li>Again, don’t worry about the correct answer and focus on the syntax and the outout of your program.</li>
+<li>Submit hte program <code>my_real_example2.py</code> with the value of x that in your attempts gets the value of y closest to 400.</li>
+</ul>
+</div>
+</div>
+<p>Let’s explore further:</p>
+<ul>
+<li><p>The technical term for “what is x that would make 2.56<sup>x</sup> = 400?” is <em>logarithm</em>.</p></li>
+<li><p>We would say: x = log<sub>2.56</sub>(400). <br> (Read this as: x is equal to log of 400 to the base 2.56).</p></li>
+<li><p>We can calculate this directly:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> math.log(<span class="dv">400</span>, <span class="fl">2.56</span>)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x)</span></code></pre></div></li>
+<li><p>Here we’ve introduced some new concepts: <img src="../../../media/units/unit0/module6/real1.png" class="img-fluid"></p></li>
+<li><p>Just like you can ask Python to calculate logarithms using <code>math.log</code>, you can do other kinds of “calculator” functions conveniently.</p></li>
+<li><p><strong>Example</strong>: <code>math.sqrt</code> for square roots.</p></li>
+</ul>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 6.3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Compute the square root of 2 in this exercise.</p>
+<p>In <code>my_real_example3.py</code>, fill in code below that prints the square root of the number 2 (and only the square root - just one number).</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Write a line of code here</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(x)</span></code></pre></div>
+</div>
+</div>
+</section>
+<section id="going-from-reals-to-integers-and-strings" class="level2">
+<h2 class="anchored" data-anchor-id="going-from-reals-to-integers-and-strings">6.1 Going from reals to integers and strings</h2>
+<p>Consider this program:</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="fl">3.141</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'x='</span> <span class="op">+</span> <span class="bu">str</span>(x))</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>i <span class="op">=</span> math.floor(x)</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>j <span class="op">=</span> math.ceil(x)</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'Rounding down x gives '</span> <span class="op">+</span> <span class="bu">str</span>(i))</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'Rounding up x gives '</span> <span class="op">+</span> <span class="bu">str</span>(j))</span></code></pre></div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>The <em>floor</em> function identifies the integer part of a number like 3.141, in this case 3.</li>
+<li><em>ceil</em> identifies the next higher integer, in this case 4.</li>
+<li>So, any number with digits after the decimal point like 3.141 lies between its floor and ceiling.</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 6.5
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Type the above in <code>my_real_example4.py</code>.</p>
+<ul>
+<li>Don’t submit it yet.</li>
+<li>Add additional lines of code to print the floor and ceiling of 2.718 in the same way that the floor and ceiling of 3.141 were printed above.</li>
+<li>The lines of code shown below are incomplete.</li>
+<li>You should complete the additional lines of the code required in this exercise, and run the program to make sure you are getting the output desired.</li>
+<li>Submit <code>my_real_example4.py</code></li>
+</ul>
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> <span class="fl">2.718</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'y='</span> <span class="op">+</span> <span class="bu">str</span>(y))</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>m <span class="op">=</span> math.floor()</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>n <span class="op">=</span> math.ceil()</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'Rounding down y gives '</span> <span class="op">+</span> <span class="bu">str</span>(m))</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'Rounding up y gives '</span> <span class="op">+</span> <span class="bu">str</span>(n))</span></code></pre></div>
+</div>
+</div>
+<p>Let’s point out a few things: <img src="../../../media/units/unit0/module6/real2.png" class="img-fluid"></p>
+<p>Next, getting real numbers as input:</p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="co"># input always results in a string</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>x_str <span class="op">=</span> <span class="bu">input</span>(<span class="st">'Enter a number: '</span>)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="co"># This is how we convert a string into a real number:</span></span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="bu">float</span>(x_str)</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a><span class="co"># We use str to embed a number in a string:</span></span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'The square of the number you entered is: '</span> <span class="op">+</span> <span class="bu">str</span>(x<span class="op">*</span>x))</span></code></pre></div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>We use the <code>int()</code> function to convert a string representation of an integer into an actual integer ready for arithmetic, as in:</p>
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>pounds_str <span class="op">=</span> <span class="bu">input</span>(<span class="st">'Desired flour in pounds: '</span>)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>pounds <span class="op">=</span> <span class="bu">int</span>(pounds_str)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>ounces <span class="op">=</span> <span class="dv">16</span> <span class="op">*</span> pounds</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'Flour amount in ounces: '</span> <span class="op">+</span> ounces)</span></code></pre></div></li>
+<li><p>The equivalent for real numbers is float:</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="bu">float</span>(x_str)</span></code></pre></div></li>
+<li><p>Why is it called so?</p>
+<ul>
+<li>Observe that we can write the number 234.56 as 23.456 x 10<sup>1</sup> or as 2.3456 x 10<sup>2</sup> or as 0.23456 x 10<sup>3</sup>, or to exaggerate this idea: 0.000000000023456 x 10<sup>13</sup></li>
+<li>The decimal point can thus, be “floated” around by adjusting the exponent (like 13).</li>
+<li>This is called <em>floating-point</em> notation.</li>
+</ul></li>
+<li><p>So, what does it mean to have a string representation of a number versus the actual number?</p>
+<ul>
+<li><p>First, consider this program:</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>some_string <span class="op">=</span> <span class="st">'3.141'</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="bu">float</span>(some_string)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Now we can use x in arithmetic</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> x <span class="op">/</span> <span class="dv">2</span></span></code></pre></div>
+<ul>
+</ul></li>
+<li><p>We cannot use <code>some_string</code> in arithmetic.</p>
+</li></ul></li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 6.6
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The following does NOT work:</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="st">'3.141'</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> x <span class="op">/</span> <span class="dv">2</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(y)</span></code></pre></div>
+<p>Type up the above program in <code>my_real_example5.py</code></p>
+<ul>
+<li>Fix it and make sure you program is running correctly.</li>
+<li>Don’t submit it yet.</li>
+<li>Add a few lines of code to print the output of <code>z = x * 2</code>, correctly.</li>
+<li>You should complete the additional lines of the code required in this exercise, and run the program to make sure you are getting the output desired.</li>
+<li>Submit <code>my_real_example5.py</code></li>
+</ul>
+</div>
+</div>
+<p>The last exercise illustrates the strange way in which operators like + and * are repurposed for strings when used with strings:</p>
+<ul>
+<li><p>Consider this example:</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>s <span class="op">=</span> <span class="st">'Hello'</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>t <span class="op">=</span> <span class="st">' World'</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>u <span class="op">=</span> s <span class="op">+</span> t</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(u)</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>v <span class="op">=</span> s <span class="op">*</span> <span class="dv">3</span>   <span class="co"># Makes 3 copies of s and concatenates them</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(v)    <span class="co"># Prints HelloHelloHello</span></span></code></pre></div></li>
+</ul>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 6.7
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Type up the above in <code>my_string_example.py</code>, including the comments provided and submit your program.</p>
+</div>
+</div>
+<p>Now, back to real numbers.</p>
+<div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exercise 6.9
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In <code>my_conversion_example.py</code> write a program that asks the user to enter a distance in kilometers, and then converts to miles and prints that number. Submit <code>my_conversion_example.py</code>.</p>
+</div>
+</div>
+<!-- <br>
+[Previous Module: **Module 0.3**](./module0.3.qmd){.button .prev} [Next Module: **Module 0.5**](./module0.5.qmd){.button .next} -->
+
+
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>This is a Quarto website. To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.<br> Contact: <a href="mailto:bulusu@email.gwu.edu">Kartik Bulusu</a><br> © 2026 All rights reserved</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

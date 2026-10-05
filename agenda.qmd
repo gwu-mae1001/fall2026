@@ -1,0 +1,371 @@
+---
+title: "Schedule"
+subtitle: This schedule may be updated with minor changes during the Fall 2025 semester
+format:
+  html:
+    code-copy: false
+---
+
+<html>
+<head>
+    <style>
+        body {
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+/Edge */
+            user-select: none; /* Standard */
+        }
+    </style>
+</head>
+<body>
+
+:::{.callout-important}
+**Referencing the content in this webpage:**
+
+Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace Engineering [Course lecture notes, codes and presentations]. Department of Mechanical and Aerospace Engineering, The George Washington University.
+:::
+
+:::{.callout-important}
+- The attached course outline is subject to change depending on the pace of the class. 
+- The course is designed with active learning modules with limited number of hardware components. 
+- Pay attention to the weekly activities where laptop requirements are mentioned clearly.
+<!-- - You are strongly encouraged to bring your own personal machine or laptop and participate with the [prerequisites](install-editor.qmd) installed.
+ - Follow the instructions provided carefully and complete the required installations needed for this workshop. ([See prerequisites](install-editor.qmd))
+ - Once you finish the **Steps 1, 2 and 3 in the installation instructions** in [prerequisites](install-editor.qmd), fill out the [Pre-workshop survey form](https://tinyurl.com/yrkacfd9). 
+ - **You will be automatically entered into a raffle in the workshop on 10/12/2024 if you complete the installation check-in form.** -->
+:::
+
+```{=html}
+<table style="width:100%">
+    <colgroup>
+        <col style="width:3%">
+        <col style="width:2%">
+        <col style="width:30%">
+        <col style="width:40%">
+        <col style="width:25%">
+    </colgroup>
+    <thead>
+        <tr class="table-secondary">
+            <th>Meeting:Week</th>   
+            <th>Date</th>            
+            <th>Topic(s)</th>
+            <th>&mu;-labs</th>            
+            <th>Deliverables (Due date)</th>             
+            <!-- <th scope="col">Description and the $\mu $-lab </th> -->
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="table-active">
+            <td>0: 10/13 to 10/19</td>
+            <td>10/17</td>  
+            <td>
+                <ul>
+                    <li><strong>What to expect in MAE1001: </strong><a href="/documents/intro/BulusuIntroMAE1001_10172025.pdf" target="_blank"> Slide deck</a></li>
+                    <li><strong>Introduction to the Instruction Team: </strong><a href="/documents/intro/InstructionTeam_10172025.pdf" target="_blank">Slide deck</a></li>
+                    <li><strong>MAE Advising: </strong><a href="/downloads/Yoo_SEASAdvising/FYAdvising_RegistrationWorkshop-Fall2025.pdf" target="_blank">Slide deck</a> by <a href="https://engineering.gwu.edu/jonathan-yoo" target="_blank">Jonathan Yoo</a>, Senior Academic Advisor</li> 
+                    <!-- <li>Prof. Plesniak or Prof. Shen's talk</li>                                 -->
+                </ul>   
+            </td>                      
+            <td>
+                <ul>
+                    <li><strong>Foundations of Python--The "Power Chords" Approach: </strong><a href="/documents/python/Python0_PowerChords_10172025.pdf" target="_blank">Slide deck</a></li>  
+                    <li><a href="/documents/python/power_chord.py" target="_blank">Download demo code</a></li> 
+                    <li>Software Installation Clinic</li>    
+                </ul>
+            </td>            
+            <td>
+                <strong>Complete all installations on 10/17</strong> and enter into a raffle
+                <!-- <ul><strong>Download:</strong>
+                        <li>requirements.txt</li>
+                        <li>power_chord.py</li>
+                        <li>power_chord_dash.py</li>
+                </ul>        -->
+            </td>     
+        </tr>
+
+        <tr>
+            <td>1: 10/20 to 10/26</td>
+            <td>10/24</td>              
+            <td>
+                <ul>
+                    <li><strong>Week1-Announcements: </strong><a href="/documents/week1_intro/MAE1001_Class1_Introductions_10242025.pdf" target="_blank">Slide deck</a></li>
+                    <li><strong>MAE Student Blitz talk</strong> by <a href="standup.qmd#marc-andre-berthin" target="_blank"> Marc Andre-Berthin</a></li>
+                    <li><strong>Faculty spotlight talk</strong> by <a href="https://mae.engineering.gwu.edu/steven-shooter" target="_blank">Prof. Steven Shooter</a></li> 
+                        <ul>
+                            <li><strong><a href="/documents/week1_intro/Shooter_presentation_10242025.pdf" target="_blank">Capstone Design Project for Career Success</strong></a></li>
+                        </ul>                    
+                </ul>    
+            </td>                      
+            <td><ul>
+                <li><strong>SolidWorks Kickstart: Your Gateway to 3D Creativity! </strong><a href="/documents/SolidWorks/Solidworks_Session1_10252025.pdf" target="_blank"> Slide deck</a></li>  
+                <li><strong>SolidWorks Design on YouTube:</strong><a href="https://www.youtube.com/playlist?list=PL9kZfUG8vZ4HtV3WyjPcsWUKEMcOsHUja" target="_blank"> Playlist</a></li> 
+                </ul> 
+            </td>
+            <td>
+                <strong>[Deadline 10/30] Assignment submissions on Blackboard:</strong>
+                    <ul>                
+                        <li><strong>1A: </strong>SolidWorks Part</li>
+                    </ul>  
+            </td>   
+        </tr>
+        
+        <tr class="table-active">
+            <td>2: 10/27 to 11/02</td>
+            <td>10/31</td>            
+            <td>
+                <ul>
+                    <li><strong>Week2-Announcements: </strong><a href="/documents/week2_intro/Week2_Announcements.pdf" target="_blank">Slide deck</a></li>                    
+                    <li><strong>MAE Student Blitz talk</strong> by <a href="standup.qmd#julia-mcgillivray" target="_blank"> Julia McGillivray</a></li>
+                        <ul>
+                            <li><strong><a href="/documents/week2_intro/Week2_JuliaMcGillivray_Presentation.pdf" target="_blank">Slide deck</strong></a></li>
+                    <!-- <li>MAE Advising by Jonathan Yoo</li> -->
+                    <!-- <li>Prof. Plesniak or Prof. Shen's talk</li>                                 -->
+                        </ul>  
+                    <li><strong>Spotlight talk by Sumner Gubisch, PhD Candidate, MAE Department</strong></li>
+                        <ul>
+                            <li><strong><a href="/documents/week2_intro/Week2_SumnerGubisch_Presentation.pdf" target="_blank">Introduction into Additive Manufacturing</strong></a></li>
+                    <!-- <li>MAE Advising by Jonathan Yoo</li> -->
+                    <!-- <li>Prof. Plesniak or Prof. Shen's talk</li>                                 -->
+                        </ul>  
+                </ul>
+            </td>          
+            <td>
+                <ul>
+                    <li><strong>Transform Your Ideas: SolidWorks Assembly Essentials </strong><a href="/documents/SolidWorks/Solidworks_Session2_10312025.pdf" target="_blank"> Slide deck</a></li>  
+                    <li><strong>SolidWorks Assembly on YouTube:</strong><a href=" https://youtu.be/t8CcIzjOJIw?si=h-KVoWzBSGUjxyiX " target="_blank"> Playlist</a></li>                      
+                    <li><strong>Bias in Dice:</strong> Your first Experiment</li> 
+                    <ul>
+                        <li><strong><a href="/documents/dice/BiasDice1_10252025.pdf" target="_blank"></strong>What is this experiment?</a></li>
+                        <li><strong><a href="/documents/week2_intro/GitHubRepo_to_OpeningAnacondaNotebook.pdf" target="_blank">Steps to run the Python code</strong></a></li>
+                        <li><a href="https://github.com/gwu-mae1001/fall2025_codes.git" target="_blank"><strong>Click on GitHub repo to download codes</strong></a></li>
+                    </ul>                     
+                </ul> 
+            </td>          
+            <td>
+                <strong>[Deadline 11/06] Assignment submissions on Blackboard:</strong>
+                    <ul>                
+                        <li><strong>2A: </strong>Bias-in-Dice results file</li>
+                        <li><strong>2C: </strong>Solidworks Assembly file</li>
+                        <li><strong>2D: </strong>Complete the SolidWorks Crash Course Quiz on BlackBoard</li>                        
+                    </ul>    
+              
+                <strong>[Deadline 11/06] Complete login to<a href="https://bulusu-py.ead.gwu.edu/" target="_blank"> bulusu-py.ead.gwu.edu</a>:</strong>             
+                    <ul>                       
+                        <li><strong>2B: </strong> You are expected to login only.</li>
+                    </ul>                       
+  
+                <!-- <ul> -->
+                    <!-- <li><strong>The Secret Life of Data in Python</strong> [Basics of File I/O and Plotting]</li>   -->
+                    <!-- <li><strong>Raspberry Pi: The Single Board Computer that changed the world</strong></li>                                                     -->                    
+                <!-- </ul> -->
+            </td>   
+        </tr>
+
+       <tr>
+            <td>3: 11/03 to 11/09</td>
+            <td>11/07</td>   
+            <td><ul>
+                    <li><strong>Week3-Announcements: </strong><a href="/documents/week3_intro/Week3_Announcements.pdf" target="_blank">Slide deck</a></li>                
+                    <li><strong>MAE Blitz talk</strong> by <a href="standup.qmd#grace-welsh" target="_blank"> Grace Welsh</a></li>
+                    <li><strong>Faculty spotlight talk</strong> by <a href="https://www.leblanclab.com/members.html" target="_blank">Prof. Saniya Leblanc</a></li> 
+                        <ul>
+                            <li><strong><a href="/documents/week3_intro/Week3_LeBlanc_MAE 1001_2025.pdf" target="_blank">The Many Facets of Energy</strong></a></li>
+                        </ul>                     
+                </ul>
+            </td>                     
+            <td>
+                <ul>  
+                    <li><strong>Raspberry Pi Basics on YouTube:</strong><a href="https://youtube.com/playlist?list=PL9kZfUG8vZ4HDjTkP0YDBJS3Xe33TTSsv&si=BEZ8GPX7j9g0R1-x" target="_blank"> Playlist</a></li>                                   
+                    <li><strong>Raspberry Pi Lab:</strong> <a href="/documents/RPi/MAE1001_RPi4BplusPiNoIRCamera11072025.pdf" target="_blank"> Camera and Face Detection</a> </li>                     
+                    <li><strong>Dissect a Disposable Camera:</strong> <a href="/documents/Camera_Disassembly/MAE1001_Camera Dissection_Lab.pdf" target="_blank">Your first disassembly</a></li>   
+                    <li><strong>From Numbers to Loops: Unlocking Python’s Power: </strong><a href="/documents/python/Python1_10252025.pdf" target="_blank">Slide deck [Data types and programming constructs]</a></li>  
+                    <ul>
+                        <li><a href="https://youtu.be/eSYeHlwDCNA" target="_blank"><strong>Sequences, Selections, and Loops</strong></a></li>
+                        <li><a href="https://youtu.be/EfJVnAHiR4s" target="_blank"><strong>Loops animation</strong></a></li>
+                        <li><a href="https://youtu.be/wxds6MAtUQ0" target="_blank"><strong>Loops and Functions</strong></a></li>
+                    </ul>               
+                </ul>       
+            </td>            
+            <td><strong>[Deadline 11/13] Assignment submissions on Blackboard:</strong>
+                    <ul>                
+                        <li><strong>In-Class Lab 3A:</strong> Bias in Dice Experiment - Trial 2</li>
+                        <li><strong>In-Class Lab 3B:</strong> Camera Dissection Lab</li>
+                        <li><strong>In-Class Lab 3C:</strong> Raspberry Pi Selfie Upload</li>                                    
+                    </ul>    
+                              
+                <!-- <ul> -->
+                    <!-- <li><strong>The Secret Life of Data in Python</strong> [Basics of File I/O and Plotting]</li>   -->
+                    <!-- <li><strong>Raspberry Pi: The Single Board Computer that changed the world</strong></li>                                                     -->                    
+                <!-- </ul> -->
+            </td>
+        </tr>        
+        
+        <tr class="table-active">
+            <td>4: 11/10 to 11/16</td>
+            <td>11/14</td>  
+            <td><ul>
+                <li><strong>Week4-Announcements: </strong><a href="/documents/week4_intro/Week4_Announcements.pdf" target="_blank">Slide deck</a></li>                
+                <li><strong>MAE Blitz talk</strong> by <a href="standup.qmd#leonardo-borchert" target="_blank"> Leonardo Borchert</a></li>
+                    <ul>
+                        <li><strong><a href="/documents/week4_intro/Week4_College-Journey-Leonardo-Borchert.pdf" target="_blank">Slide deck</strong></a></li>
+                    </ul>                
+                <li><strong>Faculty spotlight talk </strong> by <a href="https://mae.engineering.gwu.edu/matthew-rau" target="_blank">Prof. Matt Rau</a></li> 
+                    <ul>
+                        <li><strong><a href="/documents/week4_intro/2025-11-14_Rau_MAE1001.pdf" target="_blank">We Need More Engineers with PhDs! And… Opportunities for Engineering Research in Ocean Science</strong></a></li>
+                    </ul>  
+                </ul>    
+            </td> 
+            <td><ul>
+                <li><strong>Raspberry Pi Lab: </strong> <a href="/documents/RPi/MAE1001_RPi4BplusSenseHat11142025.pdf" target="_blank"> How SenseHat is working on the International Space Station</a> </li>                       
+                    <li><strong>Python Pandas Party: Turning Data into Decisions! </strong><a href="/documents/python/Python2_11142025.pdf" target="_blank">Slide deck </a></li>                 
+                <!-- <li><strong>Python Pandas Party: Turning Data into Decisions!</strong> [Basics of datafranmes]</li>   -->
+                <!-- <li><strong>Raspberry Pi: SenseHat</strong></li>   -->
+                <!-- <li><strong>Dissect a Cordless Screwdriver</strong> Your second disassembly</li>                 -->
+                </ul>                
+            </td>            
+            <td><strong>[Deadline 11/20] Assignment submissions on Blackboard:</strong>
+                <ul>                
+                    <li><strong>In-Class Lab 4A:</strong> Bias in Dice Experiment-Trial 3</li>
+                    <li><strong>In-Class Lab 4B:</strong> RPi Sense Hat Plot</li>            
+                    <li><strong>In-Class Lab 4C:</strong> Complete on<a href="https://bulusu-py.ead.gwu.edu/" target="_blank"> bulusu-py.ead.gwu.edu</a></strong> Python HW1 on bulusu-py. There is no need to submit it anywhere.</li>                      
+                    <li><strong>Assignment 4D: Week 3 Quiz</strong> on Guest Lectures, Raspberry Pi and Python</li>
+                </ul> 
+            </td>    
+        </tr>             
+        
+        <tr>
+            <td>5: 11/17 to 11/23</td>
+            <td>11/21</td>            
+            <td><ul>
+                <li><strong>Week5-Announcements: </strong><a href="/documents/week5_intro/Week5_Announcements.pdf" target="_blank">Slide deck</a></li>                
+                <li><strong>MAE Blitz talk</strong> by <a href="standup.qmd#dominic-savarino" target="_blank"> Dominic Savarino</a></li>       
+                    <ul>
+                        <li><strong><a href="/documents/week5_intro/Dominic_StudyAbroad_MAE1001.pdf" target="_blank">Slide deck</strong></a></li>
+                    </ul>                           
+                <li><strong>Faculty spotlight talk </strong> by <a href="https://mae.engineering.gwu.edu/peng-wei" target="_blank">Prof. Peng Wei</a></li>                     <ul>
+                        <li><strong><a href="/documents/week5_intro/Wei_AI-in-Air_Transportation.pdf" target="_blank">AI Use Cases in Air Transportation</strong></a></li>
+                    </ul>  
+            </td> 
+            <td><ul>
+                    <!-- <li><strong>Raspberry Pi: Actuators</strong></li>   -->
+                    <!-- <li><strong>Dissect a Cordless Screwdriver</strong> Your second disassembly</li>                                 -->
+                    <!-- <li><strong>Python Pandas Party: Turning Data into Decisions!</strong> [Basics of datafranmes]</li>  -->
+                    <!-- <li><strong>Pixels & Python: Ignite Your Image Processing Journey!</strong> [Basics of Image Processing]</li>   -->                      
+                    <li><strong>Dissect a Cordless Screwdriver: </strong><a href="/documents/ScrewDriver_Disassembly/MAE1001_Screwdriver_Dissection_Lab.pdf" target="_blank"> Your second disassembly</a></li>                
+                    <li><strong>Polished Documents, Simple Syntax: </strong><a href="/documents/LaTeX_document/MAE1001-OverleafLab.pdf" target="_blank">Your Guide to LaTeX, Markdown, and Your First Scientific Document</a></li>     
+                    <!-- <li><strong>Get Connected: Collaborate and Create with GitHub!</strong> Your First GitHub Repo</li>         -->
+                </ul>
+            </td>            
+            <td><strong>[Deadline 12/04] Assignment submissions on Blackboard:</strong>
+                <ul>              
+                    <li><strong>In-Class Lab 5A: </strong>Screwdriver Disassembly - Lab Notebook</li>
+                    <li><strong>In-Class Lab 5B: </strong>RPi Sense Hat Snake Game Score</li>
+                    <li><strong>Assignment 5C: </strong>Overleaf Report Submission</li>
+                </ul>                      
+            </td>
+        </tr>
+        
+        <tr class="table-active">
+            <td style="color: red;">11/24 to 11/30</td>
+            <td style="color: red;">11/28</td>            
+            <td colspan="3" style="color: red;">Thanksgiving Break (no classes)</td>        
+        </tr>         
+        
+        <tr>
+            <td>6: 12/01 to 12/07</td>
+            <td>12/05</td>            
+            <td colspan="3">
+                <ul>                 
+                    <li><strong>Week6-Announcements: </strong><a href="/documents/week6_intro/Week6_Announcements.pdf" target="_blank">Slide deck</a></li>                 
+                    <li><strong>Raising MAE-Revs Higher: A Mechanical & Aerospace Journey</strong> <a href="https://tinyurl.com/5n8hnhk8" target="_blank">[Graded questionnaire about the Field trip to the MAE Department]  </a></li>
+                </ul>                 
+            </td>        
+        </tr>   
+        
+        <tr>            
+            <td>7: 12/01 to 12/07</td>
+            <td>12/10</td>            
+            <td colspan="3"><strong>Thrust Into Tomorrow: MAE Students Speak Out</strong> [Discuss the life in MAE department with the student panelists]</td>        
+        </tr>    
+        <!-- <tr class="table-info">
+            <td> </td>
+            <td style="color: red;">12/08</td>             
+            <td colspan="4" style="color: red;" style="text-align: center;">Last Day of Classes</td>
+        </tr>              -->
+        <!-- <tr class="table-info">
+            <td> </td>
+            <td style="color: red;">12/09</td>             
+            <td colspan="4" style="color: red;" style="text-align: center;">Designated Thursday</td>
+        </tr>    -->
+        <!-- <tr class="table-info">
+            <td> </td>
+            <td style="color: red;">12/10</td>             
+            <td colspan="4" style="color: red;" style="text-align: center;">Designated Friday</td>
+        </tr>            -->
+        
+        <tr class="table-info">
+            <td> </td>
+            <td style="color: red;">12/11</td>             
+            <td colspan="4" style="color: red;" style="text-align: center;">Make-up/Reading Day</td>
+        </tr>     
+        
+        <tr class="table-info">
+            <td style="color: red;">12/12 to 12/18</td>
+            <td></td>             
+            <td colspan="4" style="color: red;" style="text-align: center;">Final Exam week <strong>[There is no Final exam for MAE 1001]</strong></td>
+        </tr>           
+
+        <!-- <tr class="table-active">
+            <td>Week 11 [04/01/2024]</td>
+            <td><code><b>while</b></code> loops, I/O</td>
+            <td>04/03/2024</td>
+            <td>04/05/2024</td>
+            <td>Unit 1 » Module 4 & Module 5 (Due <b>April 10, 2024</b> by <b>11:59 PM</b>)</td>
+        </tr>
+        <tr>
+            <td>Week 12 [04/08/2024]</td>
+            <td><code><b>numpy</b></code> Arrays</td>
+            <td>04/10/2024</td>
+            <td>04/12/2024</td>
+            <td>Assignment 3 (Due <b>April 20, 2024</b> by <b>11:59 PM</b>)</td>
+        </tr>
+        <tr class="table-active">
+            <td><b>Week 13 [04/15/2024]</b></td>
+            <td><b><u>Examination</u></b>
+                <br><em>Location:</em> <b>Lecture room 1957 E Room 213</b>
+                <br><em>Start time:</em> <b>3:45 PM</b></td>
+            <td>04/17/2024</td>
+            <td>04/19/2024</td>
+            <td>Unit 2 » Module 0 (Due <b>April 25, 2024</b> by <b>11:59 PM</b>)</td>
+        </tr> -->
+        <!-- <tr>
+            <td>Week 14 [04/22/2024]</td>
+            <td>Advanced Topics</td>
+            <td>04/24/2024</td>
+            <td>04/26/2024</td>
+            <td>Unit 2 » Module 1 & Assignemnt 4 (Due <b>May 01, 2024</b> by <b>11:59 PM</b>)</td>
+        </tr> -->
+        <!-- <tr class="table-active">
+            <td>Week 15 [04/29/2024]</td>
+            <td><em>Extra Lecture</em></td>
+        </tr> -->
+        <!-- <tr>
+            <td>[04/30/2024]</td>
+            <td>Make up Day</td>
+        </tr> -->
+        <!-- <tr class="table-active">
+            <td>[05/01/2024]</td>
+            <td>Designated Monday</td>
+        </tr> -->
+        <!-- <tr>
+            <td>Week of <b>May 04</b> to <b>May 10</b></td>
+            <td><b>Exam Week</b></td>
+        </tr> -->
+        
+    </tbody>
+</table>
+
+```
+<!-- </body>
+</html> -->
+

@@ -1,0 +1,41 @@
+---
+title: "Learning Objectives"
+format: 
+  html:
+    code-copy: false
+---
+
+<html>
+<head>
+    <style>
+        body {
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* IE10+/Edge */
+            user-select: none; /* Standard */
+        }
+    </style>
+</head>
+<body>
+
+:::{.callout-important}
+**Referencing the content in this webpage:**
+
+Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace Engineering [Course lecture notes, codes and presentations]. Department of Mechanical and Aerospace Engineering, The George Washington University.
+:::
+
+<!-- ## Course Learning Outcomes -->
+1. Describe activities and responsibilities of professional engineers.
+2. Demonstrate professional problem solving methodology and facility with estimation.
+3. Apply basic mechanics principles to analysis of mechanical/aerospace engineering.
+4. Work in collaborative teams to analyze engineering problems.
+5. Experience engineering by using CAD modeling software, dissecting devices and examining how they function.
+6. Gain basic, hands-on knowledge of Raspberry Pi hardware with Python programming language.
+7. Gain insight on sensors and automation and, edge computing strategies with the Raspberry Pi.
+8. Implement one Raspberry Pi-based measurement and automation system.
+<!-- 8. Gain exposure to IoT automation platforms such as ThingSpeak  -->
+<!-- 5. Gain insight on edge computing strategies with the Raspberry Pi -->
+<!-- 6. Gain understanding of industry 4.0 exposure via invited speakers and case studies -->
+
+
+
