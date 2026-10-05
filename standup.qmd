@@ -24,45 +24,25 @@ format:
 Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace Engineering [Course lecture notes, codes and presentations]. Department of Mechanical and Aerospace Engineering, The George Washington University.
 :::
 
-## Grace Welsh
-<div id="grace-welsh"></div>
+## Zain Mohsin
+<div id="zain-mohsin"></div>
 
 <table>
   <tr>
     <td width="70%">
-      **Hi! I am Grace Welsh**. I am a 4+1 Masters Student studying MAE. I have worked in composite material testing, design and manufacturing, and prototyping. I am also a TA for mechanical design of machine elements. I was a Presidential Scholar at GWU durung my undergraduate studies. I was also a part of the rocket team (aerostructures), SEASSPAN and A.O.E. (Alpha Omega Epsilon).
-
-
-      **Email**: <a href="mailto:gracewelsh27@gwmail.gwu.edu">gracewelsh27@gwmail.gwu.edu</a>
-
-      [**LinkedIn**](https://www.linkedin.com/in/grace-welsh-384b7326a/)
-    </td>
-
-    <td width="30%">
-      <img src="/guest-speakers/gracewelsh_headshot2.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
-    </td>
-  </tr>
-</table>
-
-## Maggie Lee 
-<div id="maggiee-lee "></div>
-
-<table>
-  <tr>
-    <td width="70%">
-      **My name is Maggie Lee** and I am a senior studying mechanical engineering with a concentration in aerospace! I recently interned with Wing Aviation as a field and product engineer and have also worked with MDOT. I am involved on the GW Rocket Team, SEASSPAN, SWE, and GW Balance.
+      **Hi, my name is Zain Mohsin** and I am a Senior in Mechanical Engineering from Michigan. I love being creative, being active, and working on designs for the GW Design/Build/Fly team. 
 
       **Email**: TBA
       <!-- <a href="mailto:slevine15@gwmail.gwu.edu">slevine15@gwmail.gwu.edu</a> -->
 
-      [**LinkedIn**](https://www.linkedin.com/in/margaret-lee-224a6a293/)
+      [**LinkedIn**](https://www.linkedin.com/in/zain-mohsin-a363472aa/)
     </td>
 
     <td width="30%">
-      <img src="/guest-speakers/maggie_lee_headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+      <img src="/guest-speakers/zain_mohsin_headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
     </td>
   </tr>
-</table>      
+</table>
 
 ## Will Carr
 <div id="will-carr"></div>
@@ -84,27 +64,47 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
   </tr>
 </table>
 
-## Zain Mohsin
-<div id="zain-mohsin"></div>
+
+## Maggie Lee 
+<div id="maggiee-lee "></div>
 
 <table>
   <tr>
     <td width="70%">
-      **Hi, my name is Zain Mohsin** and I am a Senior in Mechanical Engineering from Michigan. I love being creative, being active, and working on designs for the GW Design/Build/Fly team. 
+      **My name is Maggie Lee** and I am a senior studying mechanical engineering with a concentration in aerospace! I recently interned with Wing Aviation as a field and product engineer and have also worked with MDOT. I am involved on the GW Rocket Team, SEASSPAN, SWE, and GW Balance.
 
       **Email**: TBA
       <!-- <a href="mailto:slevine15@gwmail.gwu.edu">slevine15@gwmail.gwu.edu</a> -->
 
-      [**LinkedIn**](https://www.linkedin.com/in/zain-mohsin-a363472aa/)
+      [**LinkedIn**](https://www.linkedin.com/in/margaret-lee-224a6a293/)
     </td>
 
     <td width="30%">
-      <img src="/guest-speakers/zain_mohsin_headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+      <img src="/guest-speakers/maggie_lee_headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>      
+
+
+## Grace Welsh
+<div id="grace-welsh"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      **Hi! I am Grace Welsh**. I am a 4+1 Masters Student studying MAE. I have worked in composite material testing, design and manufacturing, and prototyping. I am also a TA for mechanical design of machine elements. I was a Presidential Scholar at GWU durung my undergraduate studies. I was also a part of the rocket team (aerostructures), SEASSPAN and A.O.E. (Alpha Omega Epsilon).
+
+
+      **Email**: <a href="mailto:gracewelsh27@gwmail.gwu.edu">gracewelsh27@gwmail.gwu.edu</a>
+
+      [**LinkedIn**](https://www.linkedin.com/in/grace-welsh-384b7326a/)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/gracewelsh_headshot2.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
     </td>
   </tr>
 </table>
-
-
 
 <!-- ## Julia McGillivray
 <div id="julia-mcgillivray"></div>
