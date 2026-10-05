@@ -95,7 +95,8 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
       **Hi! I am Grace Welsh**. I am a 4+1 Masters Student studying MAE. I have worked in composite material testing, design and manufacturing, and prototyping. I am also a TA for mechanical design of machine elements. I was a Presidential Scholar at GWU durung my undergraduate studies. I was also a part of the rocket team (aerostructures), SEASSPAN and A.O.E. (Alpha Omega Epsilon).
 
 
-      **Email**: <a href="mailto:gracewelsh27@gwmail.gwu.edu">gracewelsh27@gwmail.gwu.edu</a>
+      **Email**: TBA
+      <!-- <a href="mailto:gracewelsh27@gwmail.gwu.edu">gracewelsh27@gwmail.gwu.edu</a> -->
 
       [**LinkedIn**](https://www.linkedin.com/in/grace-welsh-384b7326a/)
     </td>
