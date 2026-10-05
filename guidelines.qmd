@@ -54,14 +54,20 @@ Grades are "rounded up" to the nearest integer.
 - Notify your professor as soon as feasible in these cases. Examples of such circumstances include (but are not limited to) illness, death in the family, and loss of housing. 
 - To ensure fairness toward all students, the instructor will request documentation of such circumstances.
 
-**The grades for the course deliverables will be awared only the student demonstrates all the following:** 
+### Consideration for grading 
 
+- The grades for the course deliverables will be awared only the student demonstrates all the following: 
 1. Attendance 
 2. Satisfactory performance and conduct during the course and 
 3. Maintains Academic Integrity
 
-**The instructor may at any time escalate, academic intergrity issues with any potential incident of academic dishonesty, before [Conflict Education & Student Accountability (CESA)](https://students.gwu.edu/cesa) in The George Washington University.**
-<br><br>
+Note: The instructor may at any time escalate academic integrity issues, including any potential incident of academic dishonesty, to [Conflict Education & Student Accountability (CESA)](https://students.gwu.edu/cesa) at The George Washington University.
+
+## Late submissions, missed exams, classes and deadlines
+- Late submissions due to missed classes and deadlines on the course deliverables, and quizzes will not be accepted, and exams that are missed will not administered at a new date. The following exceptions may be considered at the discretion of the instructor who holds the right to refuse the request:
+  - Exceptions will be granted when there are circumstances beyond your control that impede your ability to complete coursework, turn in a deliverable on time or a missed exam. 
+  - Notify your professor as soon as feasible in these cases. Examples of such circumstances include (but are not limited to) illness, death in the family, and loss of housing. 
+  - To ensure fairness toward all students, the instructor will request documentation of such circumstances.
 
 ## Policy on th use of Artificial Intelligence (AI) tools for the course
 
@@ -74,7 +80,7 @@ Grades are "rounded up" to the nearest integer.
 
 - In all other instances where a course deliverable does not entail permitted use of chatGPT or any other AI-based models, the instructors will have the students sign a disclosure form. This form will require that the students document specific prompts used and the outputs generated.  -->
 
-- **Any violations of the aforementioned policy will be reviewed under the** [Academic Integrity Code](https://students.gwu.edu/code-academic-integrity) and [Student Rights and Responsibities](https://students.gwu.edu/cesa)
+- **Any violations of the aforementioned policy will be reviewed under the** [Academic Integrity Code](https://students.gwu.edu/code-academic-integrity) and [Conflict Education & Student Accountability (CESA)](https://students.gwu.edu/cesa)
 
 Furthermore, the ethical issues regarding the use of chatGPT or any other AI-based models will be discussed in-class and course policy will be amended according to the findings. The findings of any such discussions will be summarized and placed in-context of the [Academic Integrity Code](https://students.gwu.edu/code-academic-integrity)
 
@@ -86,12 +92,15 @@ Furthermore, the ethical issues regarding the use of chatGPT or any other AI-bas
 - <p><a href="https://openai.com/blog/chatgpt/" target="_blank" title="OpenAI portal">chatGPT chatbot</a></p>
 - <p><a href="https://www.socialsciencespace.com/2022/12/how-chatgpt-could-transform-higher-education/" title="chatGPT to transform higher ed">How ChatGPT Could Transform Higher Education</a></p>
 
+## Instruction team's statement on academic integrity
+**The instruction team may at any time escalate, academic intergrity issues with any potential incident of academic dishonesty, before [Conflict Education & Student Accountability (CESA)](https://students.gwu.edu/cesa) in The George Washington University.**
+<br><br>
 
 ## Classroom Policies and Student responsibilities
 <table>
   <tr>
     <td width="60%">
-      <p> **The course is designed with experiential learning modules provided in each session.** </p>
+      <p> <strong>The course is designed with experiential learning modules provided in each session.</strong> </p>
       <p> This course requires a combination of individual and group work entailing hands-on activities and frequent interactions with the instructional team. </p>
       <p> The laboratory and recitation sessions and, office hours are available for interacting with your group and the instructor. We ask that all students adhere to the course policies throughout the duration of the semester. </p>
     </td>
@@ -130,8 +139,6 @@ When you need to communicate with us directly regarding extenuating circumstance
 
 - The instructor will check emails on Mondays and may respond at their earliest convenience. 
 
-
-
 ## Statement on the classroom activities
 <table>
   <tr>
@@ -150,49 +157,63 @@ When you need to communicate with us directly regarding extenuating circumstance
   </tr>
 </table>
 
-<br>
- <p> Please let the [instructor](instructor.qmd) know ways to improve the effectiveness of the course. </p>
+Please let the [instructor](/instructor) know ways to improve the effectiveness of the course.
+
  <!-- See [JEDI resources](https://www.cs.seas.gwu.edu/justice-equity-diversity-and-inclusion-resources) for student resources. </p> -->
-
-
-<br><br>
 
 # University Policies
 ## Use of Electronic Course Materials and Class Recordings
-Students are encouraged to use electronic course materials, including recorded class sessions (if any), for private personal use in connection with their academic program of study. Electronic course materials and recorded class sessions should not be shared or used for non-course related purposes unless express permission has been granted by the instructor. Students who impermissibly share any electronic course materials are subject to discipline under the Student Code of Conduct. Please contact the instructor if you have questions regarding what constitutes permissible or impermissible use of electronic course materials and/or recorded class sessions. Please contact [Disability Support Services](https://disabilitysupport.gwu.edu) if you have questions or need assistance in accessing electronic course materials.
-
-<br><br>
+- Students are encouraged to use electronic course materials, including recorded class sessions (if any), for private personal use in connection with their academic program of study. Electronic course materials and recorded class sessions should not be shared or used for non-course related purposes unless express permission has been granted by the instructor. Students who impermissibly share any electronic course materials are subject to discipline under the Student Code of Conduct. 
+- Please contact the instructor if you have questions regarding what constitutes permissible or impermissible use of electronic course materials and/or recorded class sessions. Please contact [Disability Support Services](https://disabilitysupport.gwu.edu) if you have questions or need assistance in accessing electronic course materials.
 
 ## University Policy on Religious Holidays 
 
 1.	Students should notify faculty during the first week of the semester of their intention to be absent from class on their day(s) of religious observance.
 2.	Faculty should extend to these students the courtesy of absence without penalty on such occasions, including permission to make up examinations.
 3.	Faculty who intend to observe a religious holiday should arrange at the beginning of the semester to reschedule missed classes or to make other provisions for their course‐related activities.
-For details and policy, see “Religious Holidays” at <https://provost.gwu.edu/policies-procedures-and-guidelines>
-
-<br><br>
+Note: For details and policy, see “Religious Holidays” at <https://provost.gwu.edu/policies-procedures-and-guidelines>
 
 ## Support for Students Outside the Classroom 
 
-**Disability Support Services (DSS) 202‐994‐8250**
+### GWU Writing Center 
+The center cultivates confident writers in the University community by facilitating collaborative, critical, and inclusive conversations at all stages of the writing process. Working alongside peer mentors, writers develop strategies to write independently in academic and public settings. Appointments can be booked online. Visit https://writingcenter.gwu.edu
+
+### Academic Commons 
+This provides tutoring and other academic support resources to students in many courses. Students can schedule virtual one-on-one appointments or attend drop-in sessions to review tutoring schedule, access other academic support resources, or obtain assistance at https://library.gwu.edu/academic-commons. Below is a short list of resources:
+- Virtual learning resources: <https://tinyurl.com/gw-virtual-learning>
+- Research help: <https://library.gwu.edu/get-research-help>
+- Tutoring: <https://library.gwu.edu/academic-commons/tutoring>
+- Academic success skills: <https://library.gwu.edu/academic-commons/skills-academicsuccess>
+
+### Office of Student Success 
+The mission of the Office of Student Success is “To support academic progress, student engagement, and well-being to ensure student satisfaction and successful student experiences, thereby improving retention and graduation outcomes.” Visit <https://studentsuccess.gwu.edu>.
+
+
+### Disability Support Services (DSS) 202‐994‐8250 
 
 Any student who may need an accommodation based on the potential impact of a disability should contact the Disability Support Services office at 202‐994‐8250 in the Rome Hall, Suite 102, to establish eligibility and to coordinate reasonable accommodations. For additional information please refer to: <https://disabilitysupport.gwu.edu/>
 
-**Counseling and Psychological Services (CAPS) 202‐994‐5300**
+### Counseling and Psychological Services (CAPS) 202‐994‐5300
 
 The University's Counseling and Psychological Services (CAPS) offers 24/7 assistance and referral to address students' personal, social, career, and study skills problems. Services for students include: crisis and emergency mental health consultations confidential assessment, counseling services (individual and small group), and referrals. <https://healthcenter.gwu.edu/counseling-and-psychological-services>
 
-<!--- # Contents
- - [Specification](#specification) 
- - [Dependencies Title](#dependencies-title) --> 
+### Safety and Security 
+- In an emergency: Call GWPD 202-991-6111 or 911 
+- For situation-specific actions: Review the Emergency Response Handbook at <https://safety.gwu.edu/emergency-response-handbook>  
+- GWU Active preparedness resource: <https://safety.gwu.edu/active-threat-preparedness>
+- GWU Rev-ready campaign: <https://safety.gwu.edu/rev-ready> 
 
-<br><br>
 
 ## Academic Integrity Code
+Academic dishonesty is defined as cheating of any kind, including misrepresenting one's own work, taking credit for the work of others without crediting them and without appropriate authorization, and the fabrication of information. 
+Unless otherwise specified: 
+1. You are not allowed to collaborate on the home works and lab assignments; for programming projects and hardware lab assignments.
+2. You can work in teams only if they are designated as team projects (labs). Unless otherwise specified, you cannot search for solutions or code on the web – but you can use any code that is included in the textbook or lecture notes (but please cite them). 
+3. I will be using a SW tool that checks for program code similarities – any pair of programs or written reports with greater than 10% similarity will be closely examined.
 
-Academic dishonesty is defined as cheating of any kind, including misrepresenting one's own work, taking credit for the work of others without crediting them and without appropriate authorization, and the fabrication of information. You are not allowed to collaborate on the home works and lab assignments; for programming projects and hardware lab assignments, you can work in teams only if they are designated as team projects (labs). Unless otherwise specified, you cannot search for solutions or code on the web – but you can use any code that is included in the textbook or lecture notes (but please cite them). I will be using a SW tool that checks for program code similarities – any pair of programs or written reports with greater than 10% similarity will be closely examined.
+**Note:** The Office of Academic Integrity maintains a permanent record of the violation.
+More information is available from the Office of Academic Integrity at <https://students.gwu.edu/cesa>. The University’s “Guide of Academic Integrity in Online Learning Environments” is available at <https://students.gwu.edu/cesa>. 
 
-The Office of Academic Integrity maintains a permanent record of the violation.
-More information is available from the Office of Academic Integrity at <https://students.gwu.edu/cesa>. The University’s “Guide of Academic Integrity in Online Learning Environments” is available at <https://students.gwu.edu/cesa>. Contact information: rights@gwu.edu or 202-994-6757.
+**Contact information:** rights@gwu.edu or 202-994-6757.
 
 
