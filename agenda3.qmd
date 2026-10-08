@@ -198,7 +198,9 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
         <td class="col-date">10/09</td>
         <td class="col-topic" data-label="Topic(s)">
           <ul>
-            <li><strong>What to expect in MAE1001: </strong><a href="/documents/intro/BulusuIntroMAE1001_10172025.pdf" target="_blank">Slide deck</a></li>
+            <li><strong>What to expect in MAE1001
+            <!-- </strong><a href="/documents/intro/BulusuIntroMAE1001_10172025.pdf" target="_blank">Slide deck</a> -->
+            </li>
             <li><strong>Introduction to the Instruction Team </li>
             <li><strong>MAE Advising by <a href="https://engineering.gwu.edu/jonathan-yoo" target="_blank">Jonathan Yoo</a>, Senior Academic Advisor</li>
           </ul>
@@ -218,7 +220,7 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
 
         <td class="col-lab" data-label="&mu;-labs">
           <ul>
-            <li><strong>Foundations of Python--The "Power Chords" Approach: </strong><a href="/documents/python/Python0_PowerChords_10172025.pdf" target="_blank">Slide deck</a></li>
+            <li><strong>Foundations of Python--The "Power Chords" Approach: </strong><a href="/documents/python/Python0_PowerChords_10092026.pdf" target="_blank">Slide deck</a></li>
             <li><a href="/documents/python/power_chord.py" target="_blank">Download demo code</a></li>
             <li>Software Installation Clinic</li>
           </ul>
