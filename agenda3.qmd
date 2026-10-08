@@ -199,12 +199,23 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
         <td class="col-topic" data-label="Topic(s)">
           <ul>
             <li><strong>What to expect in MAE1001: </strong><a href="/documents/intro/BulusuIntroMAE1001_10172025.pdf" target="_blank">Slide deck</a></li>
-            <li><strong>Introduction to the Instruction Team: </strong><a href="/documents/intro/InstructionTeam_10172025.pdf" target="_blank">Slide deck</a></li>
-            <li><strong>MAE Advising: </strong><a href="/downloads/Yoo_SEASAdvising/FYAdvising_RegistrationWorkshop-Fall2025.pdf" target="_blank">Slide deck</a> by <a href="https://engineering.gwu.edu/jonathan-yoo" target="_blank">Jonathan Yoo</a>, Senior Academic Advisor</li>
+            <li><strong>Introduction to the Instruction Team </li>
+            <li><strong>MAE Advising by <a href="https://engineering.gwu.edu/jonathan-yoo" target="_blank">Jonathan Yoo</a>, Senior Academic Advisor</li>
           </ul>
         </td>
-        <td class="col-blitz is-empty" data-label="MAE Blitz talk"><span class="sched-none" aria-label="None">&mdash;</span></td>
-        <td class="col-spot is-empty" data-label="Faculty spotlight talk"><span class="sched-none" aria-label="None">&mdash;</span></td>
+        <td class="col-blitz" data-label="MAE Blitz talk">
+          <a href="standup.html#zain-mohsin" target="_blank">Zain Mohsin</a>
+          <!-- <ul>
+            <li><a href="/documents/week2_intro/Week2_JuliaMcGillivray_Presentation.pdf" target="_blank"><strong>Slide deck</strong></a></li>
+          </ul> -->
+        </td>
+        <td class="col-spot" data-label="Faculty spotlight talk">
+          <a href="https://mae.engineering.gwu.edu/megan-leftwich" target="_blank">Prof. Megan Leftwich</a>          
+          <!-- <ul>
+            <li><a href="/documents/week2_intro/Week2_SumnerGubisch_Presentation.pdf" target="_blank"><strong>Introduction into Additive Manufacturing</strong></a></li>
+          </ul> -->
+        </td>
+
         <td class="col-lab" data-label="&mu;-labs">
           <ul>
             <li><strong>Foundations of Python--The "Power Chords" Approach: </strong><a href="/documents/python/Python0_PowerChords_10172025.pdf" target="_blank">Slide deck</a></li>
@@ -218,7 +229,8 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
       </tr>
 
       <!-- Week 1 -->
-      <tr id="week-1" data-date="10/16" data-due="10/22">
+
+      <!-- <tr id="week-1" data-date="10/16" data-due="10/22">
         <td class="col-week"><span class="wk-num">Week 1</span><span class="wk-range">10/12 to 10/18</span></td>
         <td class="col-date">10/16</td>
         <td class="col-topic" data-label="Topic(s)">
@@ -241,16 +253,11 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
             <li><strong>SolidWorks Design on YouTube: </strong><a href="https://www.youtube.com/playlist?list=PL9kZfUG8vZ4HtV3WyjPcsWUKEMcOsHUja" target="_blank">Playlist</a></li>
           </ul>
         </td>
-        <td class="col-due" data-label="Deliverables">
-          <strong>[Deadline 10/22] Assignment submissions on Blackboard:</strong>
-          <ul>
-            <li><strong>1A: </strong>SolidWorks Part</li>
-          </ul>
-        </td>
-      </tr>
+        <td class="col-due" data-label="Deliverables"> -->
 
       <!-- Week 2 -->
-      <tr id="week-2" data-date="10/23" data-due="10/29">
+
+      <!-- <tr id="week-2" data-date="10/23" data-due="10/29">
         <td class="col-week"><span class="wk-num">Week 2</span><span class="wk-range">10/19 to 10/25</span></td>
         <td class="col-date">10/23</td>
         <td class="col-topic" data-label="Topic(s)">
@@ -295,10 +302,11 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
             <li><strong>2B: </strong>You are expected to login only.</li>
           </ul>
         </td>
-      </tr>
+      </tr> -->
 
       <!-- Week 3 -->
-      <tr id="week-3" data-date="10/30" data-due="11/05">
+
+      <!-- <tr id="week-3" data-date="10/30" data-due="11/05">
         <td class="col-week"><span class="wk-num">Week 3</span><span class="wk-range">10/26 to 11/01</span></td>
         <td class="col-date">10/30</td>
         <td class="col-topic" data-label="Topic(s)">
@@ -337,10 +345,11 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
             <li><strong>In-Class Lab 3C:</strong> Raspberry Pi Selfie Upload</li>
           </ul>
         </td>
-      </tr>
+      </tr> -->
 
       <!-- Week 4 -->
-      <tr id="week-4" data-date="11/06" data-due="11/12">
+
+      <!-- <tr id="week-4" data-date="11/06" data-due="11/12">
         <td class="col-week"><span class="wk-num">Week 4</span><span class="wk-range">11/02 to 11/08</span></td>
         <td class="col-date">11/06</td>
         <td class="col-topic" data-label="Topic(s)">
@@ -375,10 +384,11 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
             <li><strong>Assignment 4D: Week 3 Quiz</strong> on Guest Lectures, Raspberry Pi and Python</li>
           </ul>
         </td>
-      </tr>
+      </tr> -->
 
       <!-- Week 5 -->
-      <tr id="week-5" data-date="11/13" data-due="11/19">
+       
+      <!-- <tr id="week-5" data-date="11/13" data-due="11/19">
         <td class="col-week"><span class="wk-num">Week 5</span><span class="wk-range">11/09 to 11/15</span></td>
         <td class="col-date">11/13</td>
         <td class="col-topic" data-label="Topic(s)">
@@ -402,7 +412,6 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
           <ul>
             <li><strong>Dissect a Cordless Screwdriver: </strong><a href="/documents/ScrewDriver_Disassembly/MAE1001_Screwdriver_Dissection_Lab.pdf" target="_blank">Your second disassembly</a></li>
             <li><strong>Polished Documents, Simple Syntax: </strong><a href="/documents/LaTeX_document/MAE1001-OverleafLab.pdf" target="_blank">Your Guide to LaTeX, Markdown, and Your First Scientific Document</a></li>
-            <!-- <li><strong>Get Connected: Collaborate and Create with GitHub!</strong> Your First GitHub Repo</li> -->
           </ul>
         </td>
         <td class="col-due" data-label="Deliverables">
@@ -413,10 +422,11 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
             <li><strong>Assignment 5C: </strong>Overleaf Report Submission</li>
           </ul>
         </td>
-      </tr>
+      </tr> -->
 
       <!-- Week 6 -->
-      <tr id="week-6" data-date="11/20">
+
+      <!-- <tr id="week-6" data-date="11/20">
         <td class="col-week"><span class="wk-num">Week 6</span><span class="wk-range">11/16 to 11/22</span></td>
         <td class="col-date">11/20</td>
         <td class="col-span" colspan="5">
@@ -425,35 +435,39 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
             <li><strong>Raising MAE-Revs Higher: A Mechanical &amp; Aerospace Journey</strong> <a href="https://tinyurl.com/5n8hnhk8" target="_blank">[Graded questionnaire about the Field trip to the MAE Department]</a></li>
           </ul>
         </td>
-      </tr>
+      </tr> -->
 
       <!-- Thanksgiving -->
-      <tr id="thanksgiving" class="sched-event" data-date="11/27">
+
+      <!-- <tr id="thanksgiving" class="sched-event" data-date="11/27">
         <td class="col-week"><span class="wk-num">Break</span><span class="wk-range">11/23 to 11/29</span></td>
         <td class="col-date">11/27</td>
         <td class="col-span" colspan="5">Thanksgiving Break (no classes)</td>
-      </tr>
+      </tr> -->
 
       <!-- Week 7 -->
-      <tr id="week-7" data-date="12/04">
+
+      <!-- <tr id="week-7" data-date="12/04">
         <td class="col-week"><span class="wk-num">Week 7</span><span class="wk-range">11/30 to 12/06</span></td>
         <td class="col-date">12/04</td>
         <td class="col-span" colspan="5"><strong>Thrust Into Tomorrow: MAE Students Speak Out</strong> [Discuss the life in MAE department with the student panelists]</td>
-      </tr>
+      </tr> -->
 
       <!-- Make-up / reading day -->
-      <tr id="reading-day" class="sched-event" data-date="12/10">
+
+      <!-- <tr id="reading-day" class="sched-event" data-date="12/10">
         <td class="col-week"><span class="wk-num">&nbsp;</span></td>
         <td class="col-date">12/10</td>
         <td class="col-span" colspan="5">Make-up/Reading Day</td>
-      </tr>
+      </tr> -->
 
       <!-- Final exam week -->
-      <tr id="finals" class="sched-event" data-date="12/17">
+
+      <!-- <tr id="finals" class="sched-event" data-date="12/17">
         <td class="col-week"><span class="wk-num">Finals</span><span class="wk-range">12/11 to 12/17</span></td>
         <td class="col-date"></td>
         <td class="col-span" colspan="5">Final Exam week <strong>[There is no Final exam for MAE 1001]</strong></td>
-      </tr>
+      </tr> -->
 
     </tbody>
   </table>

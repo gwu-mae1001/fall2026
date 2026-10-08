@@ -2,7 +2,7 @@
 title: "Instruction Team"
 format: 
   html:
-    code-copy: false
+    code-copy: true
 ---
 
 <html>

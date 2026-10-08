@@ -37,8 +37,8 @@ website:
         text: Course Policies        
       - href: objectives.qmd
         text: Learning Objectives  
-      # - href: agenda3.qmd
-      #   text: Schedule
+      - href: agenda3.qmd
+        text: Schedule
       - href: standup.qmd
         text: Student Panel        
       # - href: standup.qmd
