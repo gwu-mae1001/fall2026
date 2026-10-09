@@ -198,10 +198,8 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
         <td class="col-date">10/09</td>
         <td class="col-topic" data-label="Topic(s)">
           <ul>
-            <li><strong>What to expect in MAE1001
-            <!-- </strong><a href="/documents/intro/BulusuIntroMAE1001_10172025.pdf" target="_blank">Slide deck</a> -->
+            <li><strong>Introduction to the Instruction Team & What to expect in MAE1001: </strong><a href="/documents/week0_intro/Week_0_Announcements.pdf" target="_blank">Slide deck</a>
             </li>
-            <li><strong>Introduction to the Instruction Team </li>
             <li><strong>MAE Advising by <a href="https://engineering.gwu.edu/jonathan-yoo" target="_blank">Jonathan Yoo</a>, Senior Academic Advisor</li>
           </ul>
         </td>
@@ -220,9 +218,9 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
 
         <td class="col-lab" data-label="&mu;-labs">
           <ul>
-            <li><strong>Foundations of Python--The "Power Chords" Approach: </strong><a href="/documents/python/Python0_PowerChords_10092026.pdf" target="_blank">Slide deck</a></li>
+            <li><strong>Foundations of Python--The "Power Chords" Approach: </strong><a href="/documents/python/Python0_PowerChords_restyled.pdf" target="_blank">Slide deck</a></li>
             <li><a href="/documents/python/power_chord.py" target="_blank">Download demo code</a></li>
-            <li>Software Installation Clinic</li>
+            <li>Software Installation Clinic: <a href="https://docs.google.com/forms/d/e/1FAIpQLSe2kABpngTOqDhOEOolN0lBunPpUv_75-6pFvFpIqkvb6Gg8w/viewform" target="_blank">Google form for raffle entry</a></li> 
           </ul>
         </td>
         <td class="col-due" data-label="Deliverables">
