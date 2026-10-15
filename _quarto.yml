@@ -1,6 +1,11 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"          # render only your .qmd pages
+    - "!notebooks/"    # skip everything in notebooks/
+  resources:
+    - "notebooks/*.ipynb"   # copy these into _site unchanged  
 
 website:
   title: "MAE 1001 [Fall 2026]"
