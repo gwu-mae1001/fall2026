@@ -238,8 +238,7 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
         <td class="col-date">10/16</td>
         <td class="col-topic" data-label="Topic(s)">
           <ul>
-            <li><strong>Announcements for Week-1    
-            <!-- </strong><a href="/documents/week0_intro/Week_0_Announcements.pdf" target="_blank">Slide deck</a> -->
+            <li><strong>Announcements for Week-1: </strong><a href="/documents/week1_intro/Week1_Announcements.pdf" target="_blank">Slide deck</a>
             </li>
             <li>
               <strong>Studends who completed all installations will enter the raffle</strong>
@@ -247,7 +246,7 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
           </ul>
         </td>
         <td class="col-blitz" data-label="MAE Blitz talk">
-          <a href="standup.html##will-carr" target="_blank">Will Carr</a>
+          <a href="standup.html#will-carr" target="_blank">Will Carr</a>
           <!-- <ul>
             <li><a href="/documents/week2_intro/Week2_JuliaMcGillivray_Presentation.pdf" target="_blank"><strong>Slide deck</strong></a></li>
           </ul> -->
@@ -255,15 +254,13 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
         <td class="col-spot" data-label="Spotlight talk">
           <a href="http://linkedin.com/in/sumner-gubisch/" target="_blank">Sumner Gubisch, PhD Candidate, MAE Department</a>         
             <li>
-              Practical Introduction into Additive Manufacturing 
-              <!-- <a href="/documents/week0_intro/Leftwich_overview_2026.pdf" target="_blank"><strong>Slide Deck</strong></a> -->
+              Practical Introduction into Additive Manufacturing: <a href="/documents/week1_intro/IntroductionintoAdditiveManufacturing_FFF.pdf" target="_blank"><strong>Slide Deck</strong></a>
           </ul>
         </td>
 
         <td class="col-lab" data-label="&mu;-labs">
           <ul>                      
-              <li><strong>SolidWorks Kickstart: Your Gateway to 3D Creativity! 
-            <!-- </strong><a href="/documents/SolidWorks/Solidworks_Session1_10252025.pdf" target="_blank">Slide deck</a> -->
+              <li><strong>SolidWorks Kickstart: Your Gateway to 3D Creativity! </strong><a href="/documents/SolidWorks/Solidworks_Session1.pdf" target="_blank">Slide deck</a>
               </li>
             <ul>            
               <li><strong>SolidWorks Design on YouTube: </strong><a href="https://www.youtube.com/playlist?list=PL9kZfUG8vZ4HtV3WyjPcsWUKEMcOsHUja" target="_blank">Playlist</a></li>       
