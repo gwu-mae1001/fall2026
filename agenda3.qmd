@@ -269,7 +269,8 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
               <li><strong>SolidWorks Design on YouTube: </strong><a href="https://www.youtube.com/playlist?list=PL9kZfUG8vZ4HtV3WyjPcsWUKEMcOsHUja" target="_blank">Playlist</a></li>       
             </ul>
               <li><strong>Foundations of Python--Building on The "Power Chords" Approach: </strong><a href="/documents/python/week-1/Python1_PowerChords.pdf" target="_blank">Slide deck</a>
-                <ul>            
+                <ul>     
+                  <li><strong>Power Chords notebook: </strong><a href="/documents/python/week-1/power_chord2.ipynb" target="_blank" download="Demo1_Guide.ipynb">Download the in-class demo notebook</a>                        
                   <li><strong>In-class demo notebook: </strong><a href="/documents/python/week-1/HW1.ipynb" target="_blank" download="Demo1_Guide.ipynb">Download the in-class demo notebook</a> 
                   <li><strong>Type along in this empty notebook: </strong><a href="/documents/python/week-1/HW1.ipynb" target="_blank" download="Demo1.ipynb">Download the empty notebook</a>                   
                 </li>       
