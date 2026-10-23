@@ -64,6 +64,25 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
   </tr>
 </table>
 
+## Claire Caltabiano
+<div id="will-carr"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      I am a Mechanical Engineering student at The George Washington University, concentrating in Aerospace with a minor in Astrophysics and Astronomy. My passion for space exploration and engineering drives me to constantly seek new challenges, whether through hands-on projects, leadership roles, or research opportunities.
+      Currently, I contribute to the Sounding Rocket Team at GWU, where I help design and build airframes for competition rockets, dedicating over 75 hours to construction and testing. As Scribe for Theta Tau Professional Engineering Fraternity, I provide leadership and strong organizational skills to the fraternity. As a Fundraising Chair for Theta Tau, I have lead initiatives to support fraternity affairs and cultivate professional connections within the engineering community.    
+
+      **Email**: <a href="mailto:claire.caltibiano@gwu.edu">claire.caltibiano@gwu.edu</a>
+
+      [**LinkedIn**](https://linkedin.com/in/claire-caltabiano-84460019b)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/ClaireCaltabiano_headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
 
 ## Maggie Lee 
 <div id="maggiee-lee "></div>
