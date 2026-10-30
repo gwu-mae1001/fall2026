@@ -352,7 +352,7 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
           </ul>
           <li>Jacob Goldberg</li>          <!-- <a href="standup.qmd#gmaggiee-lee" target="_blank"Jacob Goldberg</a> -->
           <ul>
-            <li><a href="/documents/week3_intro/MaggieLee_MAE1001_Presentation.pdf" target="_blank"><strong>Slide deck</strong></a></li>
+            <li><a href="/documents/week3_intro/Goldberg_MAE1001_Presentation.pdf" target="_blank"><strong>Slide deck</strong></a></li>
           </ul>
         </td>        
         <!-- <td class="col-spot" data-label="Faculty spotlight talk">
