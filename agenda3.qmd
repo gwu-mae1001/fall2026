@@ -292,7 +292,7 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
         <td class="col-date">10/23</td>
         <td class="col-topic" data-label="Topic(s)">
           <ul>
-            <li><strong>Announcements for Week-2: </strong><a href="/documents/week1_intro/Week2_Announcements.pdf" target="_blank">Slide deck</a>
+            <li><strong>Announcements for Week-2: </strong><a href="/documents/week2_intro/Week2_Announcements.pdf" target="_blank">Slide deck</a>
             </li>
           </ul>
         </td>
@@ -334,6 +334,57 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
           </ul> 
         </td>
       </tr>            
+
+      <!-- Week 3 -->
+    <tr id="week-3" data-date="10/30" data-due="11/05">
+        <td class="col-week"><span class="wk-num">Week 3</span><span class="wk-range">10/26 to 10/30</span></td>
+        <td class="col-date">10/30</td>
+        <td class="col-topic" data-label="Topic(s)">
+          <ul>
+            <li><strong>Week3-Announcements: 
+                      <!-- </strong><a href="/documents/week3_intro/Week3_Announcements.pdf" target="_blank">Slide deck</a></li> -->
+          </ul>
+        </td>
+        <td class="col-blitz" data-label="MAE Blitz talk">
+          <li><a href="standup.qmd#maggiee-lee" target="_blank">Maggie Lee</a></li>
+          <ul>          
+            <li><a href="/documents/week3_intro/MaggieLee_MAE1001_Presentation.pdf" target="_blank"><strong>Slide deck</strong></a></li>
+          </ul>
+          <li>Jacob Goldberg</li>          <!-- <a href="standup.qmd#gmaggiee-lee" target="_blank"Jacob Goldberg</a> -->
+          <ul>
+            <li><a href="/documents/week3_intro/MaggieLee_MAE1001_Presentation.pdf" target="_blank"><strong>Slide deck</strong></a></li>
+          </ul>
+        </td>        
+        <!-- <td class="col-spot" data-label="Faculty spotlight talk">
+          <a href="https://www.leblanclab.com/members.html" target="_blank">Prof. Saniya Leblanc</a>
+          <ul>
+            <li><a href="/documents/week3_intro/Week3_LeBlanc_MAE 1001_2025.pdf" target="_blank"><strong>The Many Facets of Energy</strong></a></li>
+          </ul>
+        </td> -->
+        <td class="col-lab" data-label="&mu;-labs">
+          <ul>
+            <li><strong>Raspberry Pi Basics on YouTube: </strong><a href="https://youtube.com/playlist?list=PL9kZfUG8vZ4HDjTkP0YDBJS3Xe33TTSsv&amp;si=BEZ8GPX7j9g0R1-x" target="_blank">Playlist</a></li>
+            <li><strong>Raspberry Pi Lab: </strong> <a href="/documents/RPi/MAE1001_RPi4Bplus_LEDS10302026.pdf" target="_blank">Blinking LEDs</a></li>
+            <li><strong>Dissect a Cordless Screwdriver: </strong><a href="/documents/ScrewDriver_Disassembly/MAE1001_Screwdriver_Dissection_Lab2026.pdf" target="_blank">Your first disassembly</a></li>
+            <!-- <li><strong>Dissect a Disposable Camera:</strong> <a href="/documents/Camera_Disassembly/MAE1001_Camera Dissection_Lab.pdf" target="_blank">Your first disassembly</a></li> -->
+            <li><strong>From Numbers to Loops: Unlocking Python’s Power: </strong><a href="/documents/python/week-2/Python1_10302026.pdf" target="_blank">Slide deck [Data types and programming constructs]</a>
+              <ul>
+                <li><a href="https://youtu.be/eSYeHlwDCNA" target="_blank"><strong>Sequences, Selections, and Loops</strong></a></li>
+                <li><a href="https://youtu.be/EfJVnAHiR4s" target="_blank"><strong>Loops animation</strong></a></li>
+                <li><a href="https://youtu.be/wxds6MAtUQ0" target="_blank"><strong>Loops and Functions</strong></a></li>
+              </ul>
+            </li>
+          </ul>
+        </td>
+        <td class="col-due" data-label="Deliverables">
+          <strong>[Deadline 11/06] Assignment submissions on Blackboard:</strong>
+          <ul>
+            <li><strong>Bias in Dice Experiment - Trial 2</strong> </li>
+            <li><strong>Screwdriver Dissabelbly Lab</strong> </li>
+            <!-- <li><strong>In-Class Lab 3C:</strong> Raspberry Pi Selfie Upload</li> -->
+          </ul>
+        </td>
+      </tr>    
 
       <!-- Week 1 -->
 
