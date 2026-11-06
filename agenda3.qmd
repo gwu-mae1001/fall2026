@@ -420,7 +420,7 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
         </td>
         <td class="col-lab" data-label="&mu;-labs">
           <ul>
-            <li><strong>Raspberry Pi Lab: </strong><a href="/documents/RPi/MAE1001_RPi4BplusSenseHat11142025.pdf" target="_blank">How SenseHat is working on the International Space Station</a></li>  
+            <li><strong>Raspberry Pi Lab: </strong><a href="/documents/RPi/MAE1001_RPi4BplusSenseHat11062026.pdf" target="_blank">From Physical to Digital: Space-Grade Sensing in the Classroom</a></li>  
             <li><strong>Polished Documents, Simple Syntax: </strong><a href="/documents/LaTeX_document/MAE1001-OverleafLab.pdf" target="_blank">Your Guide to LaTeX, Markdown, and Your First Scientific Document</a></li>                
             <!-- <li><strong>Python Pandas Party: Turning Data into Decisions! </strong><a href="/documents/python/Python2_11142025.pdf" target="_blank">Slide deck</a></li>                 -->
           </ul>
