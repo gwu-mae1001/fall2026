@@ -92,8 +92,7 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
     <td width="70%">
       **My name is Maggie Lee** and I am a senior studying mechanical engineering with a concentration in aerospace! I recently interned with Wing Aviation as a field and product engineer and have also worked with MDOT. I am involved on the GW Rocket Team, SEASSPAN, SWE, and GW Balance.
 
-      **Email**: TBA
-      <!-- <a href="mailto:slevine15@gwmail.gwu.edu">slevine15@gwmail.gwu.edu</a> -->
+      **Email**: <a href="mailto:maggie.lee1@gwu.edu">maggie.lee1@gwu.edu</a>
 
       [**LinkedIn**](https://www.linkedin.com/in/margaret-lee-224a6a293/)
     </td>
@@ -104,6 +103,64 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
   </tr>
 </table>      
 
+## Jacob Goldberg
+<div id="jacob-goldberg"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      I’m a mechanical engineering senior with experience in aerospace, propulsion, and mechanical design. Through my work at Boom Supersonic, GW's propulsion research lab, and as drivetrain lead for GW's Baja SAE team, I've developed a strong background in designing, manufacturing, and testing complex mechanical systems. I'm particularly interested in hands-on engineering, rapid hardware development, and solving challenging problems that turn innovative ideas into real-world products.”
+
+
+      **Email**: <a href="mailto:Jacob.goldberg@gwu.edu">Jacob.goldberg@gwu.edu</a>
+
+      [**LinkedIn**](https://www.linkedin.com/in/jacob-goldberg-33b8a2273)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/jacob_goldberg_headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>      
+
+## Lucas Narvaez
+<div id="lucas-narvaez"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      I’m a sophomore in Mechanical Engineering student at The George Washington University with experience in CAD, SolidWorks, AutoCAD, Python, and technical design. I am interested in hands-on engineering, research, and internship opportunities that strengthen my skills in mechanical design and problem-solving.
+
+      **Email**: <a href="mailto:lucas.narvaez.gwu.edu">lucas.narvaez.gwu.edu</a>
+
+      [**LinkedIn**](https://www.linkedin.com/in/lucasnarvaez)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/lucas_narvaez_headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>      
+
+## Cesar Tovar
+<div id="cesar-tovar"></div>
+
+<table>
+  <tr>
+    <td width="70%">
+      I’m a sophomore in Mechanical Engineering student at The George Washington University with with aerospace concentration.
+
+      **Email**: TBA 
+      <!-- <a href="mailto:cat710@gwmail.gwu.edu">cat710@gwmail.gwu.edu</a> -->
+
+      [**LinkedIn**](https://www.linkedin.com/in/cat710)
+    </td>
+
+    <td width="30%">
+      <img src="/guest-speakers/cesar_tovar_headshot.png" alt="uta" style="object-fit:contain width:300px;height:300px; margin-right: 10px;" />
+    </td>
+  </tr>
+</table>
 
 ## Grace Welsh
 <div id="grace-welsh"></div>

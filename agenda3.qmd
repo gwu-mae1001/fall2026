@@ -280,8 +280,8 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
           <ul>
             <li>Python basics assignment submission on Blackboard: <a href="/documents/python/week-1/HW1.ipynb" target="_blank" download="HW1.ipynb">Download the HW1 notebook</a>            
             </li>
-            <li>SolidWorks part submission on Blackboard</li> 
-            <li>Week-1 Quiz on BlackBoard</li>
+            <li><strong>SolidWorks part submission on Blackboard</strong></li> 
+            <li><strong>Week-1 Quiz on BlackBoard</strong></li>
           </ul>        
         </td>
       </tr>      
@@ -342,7 +342,8 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
         <td class="col-topic" data-label="Topic(s)">
           <ul>
             <li><strong>Week3-Announcements: 
-                      <!-- </strong><a href="/documents/week3_intro/Week3_Announcements.pdf" target="_blank">Slide deck</a></li> -->
+              </strong><a href="/documents/week3_intro/Week3_Announcements.pdf" target="_blank">Slide deck</a>
+            </li>
           </ul>
         </td>
         <td class="col-blitz" data-label="MAE Blitz talk">
@@ -350,7 +351,7 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
           <ul>          
             <li><a href="/documents/week3_intro/MaggieLee_MAE1001_Presentation.pdf" target="_blank"><strong>Slide deck</strong></a></li>
           </ul>
-          <li>Jacob Goldberg</li>          <!-- <a href="standup.qmd#gmaggiee-lee" target="_blank"Jacob Goldberg</a> -->
+          <li><a href="standup.qmd#jacob-goldberg" target="_blank">Jacob Goldberg</a></li>
           <ul>
             <li><a href="/documents/week3_intro/Goldberg_MAE1001_Presentation.pdf" target="_blank"><strong>Slide deck</strong></a></li>
           </ul>
@@ -365,7 +366,7 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
           <ul>
             <li><strong>Raspberry Pi Basics on YouTube: </strong><a href="https://youtube.com/playlist?list=PL9kZfUG8vZ4HDjTkP0YDBJS3Xe33TTSsv&amp;si=BEZ8GPX7j9g0R1-x" target="_blank">Playlist</a></li>
             <li><strong>Raspberry Pi Lab: </strong> <a href="/documents/RPi/MAE1001_RPi4Bplus_LEDS10302026.pdf" target="_blank">Blinking LEDs</a></li>
-            <li><strong>Dissect a Cordless Screwdriver: </strong><a href="/documents/ScrewDriver_Disassembly/MAE1001_Screwdriver_Dissection_Lab2026.pdf" target="_blank">Your first disassembly</a></li>
+            <li><strong>Dissect a Cordless Screwdriver: </strong><a href="/documents/ScrewDriver_Disassembly/MAE1001_Screwdriver_Disassembly_Fall2026.pdf" target="_blank">Your first disassembly</a></li>
             <!-- <li><strong>Dissect a Disposable Camera:</strong> <a href="/documents/Camera_Disassembly/MAE1001_Camera Dissection_Lab.pdf" target="_blank">Your first disassembly</a></li> -->
             <li><strong>From Numbers to Loops: Unlocking Python’s Power: </strong><a href="/documents/python/week-2/Python1_10302026.pdf" target="_blank">Slide deck [Data types and programming constructs]</a>
               <ul>
@@ -381,10 +382,59 @@ Bulusu, Kartik V. (2026, October 09). Introduction to Mechanical and Aerospace E
           <ul>
             <li><strong>Bias in Dice Experiment - Trial 2</strong> </li>
             <li><strong>Screwdriver Dissabelbly Lab</strong> </li>
+            <li><strong>Week-3 Quiz on BlackBoard</strong></li>         
             <!-- <li><strong>In-Class Lab 3C:</strong> Raspberry Pi Selfie Upload</li> -->
           </ul>
         </td>
       </tr>    
+
+      <!-- Week 4 -->
+    <tr id="week-3" data-date="10/30" data-due="11/05">
+        <td class="col-week"><span class="wk-num">Week 4</span><span class="wk-range">11/02 to 11/06</span></td>
+        <td class="col-date">11/06</td>
+        <td class="col-topic" data-label="Topic(s)">
+          <ul>
+            <li><strong>Week4-Announcements: 
+              <!-- </strong><a href="/documents/week3_intro/Week3_Announcements.pdf" target="_blank">Slide deck</a> -->
+            </li>
+          </ul>
+        </td>
+        <td class="col-blitz" data-label="MAE Blitz talk">
+          <li><a href="standup.qmd#lucas-narvaez" target="_blank">Lucas Narvaez</a> and <a href="standup.qmd#cesar-tovar" target="_blank">Cesar Tovar</a></li>
+          <ul>          
+            <!-- <li><a href="/documents/week3_intro/MaggieLee_MAE1001_Presentation.pdf" target="_blank"><strong>Slide deck</strong></a></li> -->
+          </ul>
+        </td>        
+        <!-- <td class="col-spot" data-label="Faculty spotlight talk">
+          <a href="https://www.leblanclab.com/members.html" target="_blank">Prof. Saniya Leblanc</a>
+          <ul>
+            <li><a href="/documents/week3_intro/Week3_LeBlanc_MAE 1001_2025.pdf" target="_blank"><strong>The Many Facets of Energy</strong></a></li>
+          </ul>
+        </td> -->
+
+        <td class="col-spot" data-label="Faculty spotlight talk">
+          <a href="https://mae.engineering.gwu.edu/matthew-rau" target="_blank">Prof. Matt Rau</a>
+          <ul>
+            <li><a href="/documents/week4_intro/2025-11-14_Rau_MAE1001.pdf" target="_blank"><strong>We Need More Engineers with PhDs! And… Opportunities for Engineering Research in Ocean Science</strong></a></li>
+          </ul>
+        </td>
+        <td class="col-lab" data-label="&mu;-labs">
+          <ul>
+            <li><strong>Raspberry Pi Lab: </strong><a href="/documents/RPi/MAE1001_RPi4BplusSenseHat11142025.pdf" target="_blank">How SenseHat is working on the International Space Station</a></li>  
+            <li><strong>Polished Documents, Simple Syntax: </strong><a href="/documents/LaTeX_document/MAE1001-OverleafLab.pdf" target="_blank">Your Guide to LaTeX, Markdown, and Your First Scientific Document</a></li>                
+            <!-- <li><strong>Python Pandas Party: Turning Data into Decisions! </strong><a href="/documents/python/Python2_11142025.pdf" target="_blank">Slide deck</a></li>                 -->
+          </ul>
+        </td>
+        <td class="col-due" data-label="Deliverables">
+          <strong>[Deadline 11/13] Assignment submissions on Blackboard:</strong>
+          <ul>
+            <li><strong>Bias in Dice Experiment - Trial 3</strong> </li>
+            <li><strong>Overleaf Report-1 Submission</strong></li>
+            <li><strong>Week-4 Quiz on BlackBoard</strong></li>            
+            <!-- <li><strong>Reading Assignment-Python Pandas Party: Turning Data into Decisions! </strong><a href="/documents/python/Python2_11142025.pdf" target="_blank">Slide deck</a></li>               -->
+          </ul>
+        </td>
+      </tr>          
 
       <!-- Week 1 -->
 
